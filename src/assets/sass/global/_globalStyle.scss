@@ -2,6 +2,14 @@
 @use "../variables" as *;
 @use "../helpers" as *;
 
+body {
+   // font-family: 'Montserrat Alternates', sans-serif !important;
+}
+
+label {
+   font-weight: 500;
+}
+
 table {
    td {
       overflow: hidden;

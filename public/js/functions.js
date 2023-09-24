@@ -4,8 +4,16 @@ function isNum(value) {
 }
 
 
+// ====================== To Skip Argument By Insetting Argument Value As Undefined ( works only if arguments have default values) ======================
+function skip(number) {
+   return Array(number);
+}
+
+
 // ====================== Get Cookie Value By Name ======================
 function getCookie(name) {
+   if (document.cookie == '') return null;
+
    let cookies      = document.cookie.split(';');
    let cookiesName  = [];
    let cookiesValue = [];
@@ -48,45 +56,45 @@ function setCookie(name, value, expirationNumber, expirationType = 'year') {
 
 
 // ====================== Make notifications ======================
-function notifications(type = '', msg = '', noIcon = false, time = 1250, fontSize="fs-25", position = 'top-end') {
+function notifications(type = '', msg = '', noIcon = false, time = 1250, fontSize="fs-25", position = 'top-end', showConfirmBtn = false) {
    if (window.innerWidth <= 767) fontSize = 'fs-20';
    
    Swal.fire({
       icon: noIcon ? '' : type,
       position,
       title: `<span class="txt-cap ${fontSize}">${msg}</span>`,
-      showConfirmButton: false,
-      timer: time,
+      showConfirmButton: showConfirmBtn,
+      timer: showConfirmBtn ? false : time,
    });
 
 }
 
 
 // ====================== Make Success Notification ======================
-function success(msg = '', noIcon = false, time = 1250, fontSize = 'fs-25', position = 'top-end') {
+function success(msg = '', noIcon = false, time = 1250, fontSize = 'fs-25', position = 'top-end', showConfirmBtn = false) {
    if (window.innerWidth <= 767) fontSize = 'fs-20';
    
    Swal.fire({
       icon: noIcon ? '' : 'success',
       position,
       title: `<span class="txt-cap ${noIcon ? 'text-success' : ''} ${fontSize}">${msg}</span>`,
-      showConfirmButton: false,
-      timer: time,
+      showConfirmButton: showConfirmBtn,
+      timer: showConfirmBtn ? false : time,
    });
 
 }
 
 
 // ====================== Make Waring Notification ======================
-function warning(msg = '', noIcon = false, time = 1250, fontSize = 'fs-25', position = 'top-end') {
+function warning(msg = '', noIcon = false, time = 1250, fontSize = 'fs-25', position = 'top-end', showConfirmBtn = false) {
    if (window.innerWidth <= 767) fontSize = 'fs-20';
 
    Swal.fire({
       icon: noIcon ? '' : 'warning',
       position,
       title: `<span class="txt-cap ${noIcon ? 'text-warning' : ''} ${fontSize}">${msg}</span>`,
-      showConfirmButton: false,
-      timer: time,
+      showConfirmButton: showConfirmBtn,
+      timer: showConfirmBtn ? false : time,
    });
 
 }

@@ -4027,6 +4027,10 @@ img {
 }
 
 /********************** Global Style *************/
+label {
+  font-weight: 500;
+}
+
 table td {
   overflow: hidden;
   text-overflow: ellipsis;
