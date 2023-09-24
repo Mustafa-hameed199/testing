@@ -104,7 +104,7 @@
 
    .v-enter-active,
    .v-leave-active {
-      // transition: .5s cubic-bezier(.04,.05,.15,1.59);
-      transition: .5s ease;
+      // transition: .3s cubic-bezier(.04,.05,.15,1.59);
+      transition: .3s ease;
    }
 </style>
