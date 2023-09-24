@@ -10,6 +10,7 @@
 <script>
    import commonHtml from './components/CommonHtml.vue';
    import Nav from './components/Navbar.vue';
+   import router from './router';
 
    export default {
       name: 'app',
@@ -60,7 +61,21 @@
 
             // for bootstrap direction 
             if (dir == 'rtl') linkBs.href = `${this.$store.state.config.URL}vue/node_modules/bootstrap/dist/css/bootstrap.rtl.min.css`;
-         })
+         });
+
+         router.beforeEach((to, from, next) => {
+            // remove script if exists 
+            if (el('[data-globalEvents-js]')) el('[data-globalEvents-js]').remove();
+            
+            // reload the script to get touch with elements events
+            let scriptTag  = document.createElement('script');
+            scriptTag.src  = GLOBAL_JS_FILE_PATH;
+            scriptTag.setAttribute('defer', '');
+            scriptTag.setAttribute('data-globalEvents-js', '');
+            document.body.appendChild(scriptTag);
+
+            next();
+         });
       },
    }
 </script>

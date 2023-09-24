@@ -2,8 +2,10 @@
    <div id="home">
       <div class="container">
          <img alt="Vue logo" :src="$store.getters['config/getImg']('logo.png')" class="w-fit mx-auto">
-         <input type="text" class="form-control" v-model.lazy="testing" data-only-int>
+         <input type="text" class="form-control" v-model.lazy="testing" data-float-int>
          <h1>{{ $store.getters['config/getLang'] }}</h1>
+
+         <h3>{{ testing }}</h3>
 
          <input type="search" class="form-control" :placeholder="$t('lang_search')">
 

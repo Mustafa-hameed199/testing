@@ -1,31 +1,37 @@
-let func;
+// //▬▬▬▬▬▬▬▬ to force user write only numbers & points
+if (el('[data-float-int]')) {
+   el('[data-float-int]').addEventListener('input', function () {
 
-//▬▬▬▬▬▬▬▬ to force user write only numbers & points
-func = el => {
-   if (el.value.trim() == '.') el.value = '';
-   el.value = el.value.replace(/[^0-9\.]/g, '');
+      if (this.value.trim() == '.') this.value = '';
+      this.value = this.value.replace(/[^0-9\.]/g, '');
+
+   });
 }
-action('input', 'data-float-int', func);
 
 
-//▬▬▬▬▬▬▬▬ to force user write only numbers
-func = el => el.value = el.value.replace(/[^0-9]/g, '');
-action('input', 'data-only-int', func);
+// //▬▬▬▬▬▬▬▬ to force user write only numbers
+if (el('[data-only-int]')) {
 
+   el('[data-only-int]').addEventListener('input', function() {
+      this.value = this.value.replace(/[^0-9]/g, '');
+   })
 
-
-//▬▬▬▬▬▬▬▬ Show Password Icon
-func = el => {
-   let input = el.parentElement.querySelector('input');
-   let attr  = input.getAttribute('type');
-   
-   if (attr == 'password') input.setAttribute('type', 'text');
-   else input.setAttribute('type', 'password');
-   
-   el.classList.toggle('fa-eye-slash');
-   el.classList.toggle('fa-eye');
 }
-action('click', 'data-show-pwd-icon', func);
+
+
+// //▬▬▬▬▬▬▬▬ Show Password Icon
+if (el('[data-show-pwd-icon]')) {
+   el('[data-show-pwd-icon]').addEventListener('click', function() {
+      let input = this.parentElement.querySelector('input');
+      let attr  = input.getAttribute('type');
+      
+      if (attr == 'password') input.setAttribute('type', 'text');
+      else input.setAttribute('type', 'password');
+      
+      this.classList.toggle('fa-eye-slash');
+      this.classList.toggle('fa-eye');
+   });
+}
 
 
 // ▬▬▬▬▬▬▬▬ cancel autocomplete in input
