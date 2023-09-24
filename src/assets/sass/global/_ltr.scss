@@ -1,0 +1,185 @@
+/********************** ltr *************/
+@use '../variables' as *;
+@use '../helpers' as *;
+
+body { direction: ltr }
+
+// Sidebar
+#sidebar {
+   border-right: 1px solid rgb(207, 207, 207);
+   right: auto;
+   left: 0;
+   direction: rtl;
+
+   @include brTo(sm) { 
+      transform: translateX(-100%);
+   }
+
+
+   .expand {
+      margin-right: 0;
+      margin-left: auto;
+
+      @include brTo(sm) { 
+         transform: translateX(100%);
+         // box-shadow: rem(-3) rem(3) rem(13.5) rgba($dark-clr, .3);
+      }
+
+      i {
+         transform: rotate(180deg);
+         transition: .5s ease;
+         &.flip { transform: rotate(0deg)}
+      }
+   }
+
+   &.expanded {
+      transform: translateX(0%);
+      .expand { 
+         transform: translateX(0%);
+         box-shadow: none;
+      }
+   }
+
+   .nav__link {
+      &::before {
+         left: auto;
+         right: 0;
+      }
+   }
+}
+
+// main heading
+.main-heading {
+   padding-left: 0;
+   padding-right: rem(55);
+}
+
+// Radio Box
+.radioToCheckBox {
+   right: auto;
+   left: 0;
+}
+
+// for phone count number on input
+.count-phone-number {
+   span {
+      left: auto;
+      right: 0;
+   }
+}
+
+// show password icon 
+.show-pwd {
+   input { 
+      padding-left: 0;
+      padding-right: 2rem; 
+   }
+   &-icon {
+      left: auto;
+      right: 0;
+   }
+}
+
+
+.radioToCheckBox ~ label { margin-left: .5rem !important }
+
+// pagination
+.pagination-btns {
+   .btns { flex-direction: row-reverse }
+}
+
+
+// global search & previous page btn
+.content > .container {
+   // prv button 
+   #prv_page_btn {
+      left: auto;
+      right: calc(var(--btn_position) * 1rem); 
+      margin-right: 0;
+      margin-left: auto;
+   }
+   
+   // global Search Form
+   #global_search_form {
+      margin-right: 0;
+      margin-left: auto;
+      left: auto;
+      right: var(--global_search_position);  
+
+      .input-holder {
+         .show-placeholder {
+               right: 0;
+               left: auto;
+               transform: translate(100%, -50%);
+               animation: show-news 15s linear infinite ;
+               @include brTo(sm) {
+                  animation: show-news 22s linear infinite ;
+               }
+         }
+      }
+   }
+}
+
+
+// fixed new invoice btn
+#fixed-btns {
+   left: auto;
+   right: 1rem;
+
+}
+
+#fixed_settings_btn,
+#fixed_notification_btn {
+   left: auto;
+   right: 0;
+}
+#fixed_notification_btn { 
+   border-radius: 0 0 0 rem(5); 
+   span {
+      position: absolute;
+      right: auto;
+      left: rem(5);
+   }
+}
+
+// ajax loading
+#ajax-loading {
+   left: auto;
+   right: 1rem;
+   @include brTo(sm) { 
+      left: calc(var(--sidebar-width) + 5px);
+      right: auto;
+   }
+   @include br(md) { 
+      left: auto;
+      right: 3rem;
+   }
+   @include br(lg) { 
+      left: auto;
+      right: 5rem; 
+   }
+}
+
+// close sales settings btn
+.new_invoice {
+   #sales_settings_btn_close {
+      left: auto;
+      right: 0;
+   }
+
+}
+
+// notifications
+.uk-notification {
+   &.uk-notification-bottom-center, 
+   &.uk-notification-top-center {
+      left: 50%;
+      right: auto;
+   }
+}
+
+
+
+body {
+   background-color:#eee !important;
+}

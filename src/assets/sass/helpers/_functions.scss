@@ -1,0 +1,11 @@
+@function rem($number) {
+   @return ($number / 16) * 1rem;
+}
+
+@function radius($number) {
+   @return (
+      width: $number * 1px,
+      height:$number * 1px,
+      border-radius: 50%
+   );
+}

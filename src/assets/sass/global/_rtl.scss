@@ -1,0 +1,15 @@
+html body * { text-align: right }
+
+html * >  *,
+html body   * > * { text-align: inherit }
+
+body { direction: rtl }
+
+#sidebar { border-left: 1px solid rgb(207, 207, 207) }
+
+.radioToCheckBox ~ label { margin-right: .5rem !important }
+
+
+body {
+   background-color: pink !important;
+}

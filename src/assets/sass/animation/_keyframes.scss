@@ -1,0 +1,347 @@
+/********************** KeyFrames *************/
+@use '../variables' as *;
+@use '../helpers' as *;
+
+$bg-glow-main: $main-clr;
+
+
+@keyframes flying {
+    0% { transform: translateY(rem(-10)) }
+    100% { transform: translateY(rem(10)) }
+}
+
+@keyframes main-clr-glowing {
+    0% { background-color: darken($bg-glow-main, 0%) }
+    100% { background-color: darken($bg-glow-main, 20%) }
+}
+
+// @keyframes secondary-clr-glowing {
+//     0% { background-color: darken($bg-glow-secondary, 0%) }
+//     100% { background-color: darken($bg-glow-secondary, 20%) }
+// }
+
+
+// @keyframes custom-flying {
+//     0% { 
+//         transform: translateY(rem(-10));
+//         filter: drop-shadow(0 rem(20) rem(7) $soft-gray);
+
+//     }
+//     100% { 
+//         transform: translateY(rem(10));
+//         filter: drop-shadow(0 rem(15) rem(7) $soft-gray);
+
+//     }
+// }
+
+@keyframes custom-flying-no-shadow {
+    0% { transform: translateY(rem(-10)) }
+    100% {  transform: translateY(rem(10)) }
+}
+
+
+@keyframes show-news {
+    0% { transform: translate(100%, -50%) }
+
+    100% { transform: translate(-100%, -50%) }
+}
+
+
+////////////////////////////////// diamond loading [start]
+@keyframes traingle1 {
+    0% {
+        top: rem(-50);
+        opacity: 0;
+    }
+    100% {
+        top: rem(50);
+        opacity: 1;
+    }
+}
+
+@keyframes traingle2 {
+    0% {
+        top: rem(-50);
+        opacity: 0;
+    }
+    100% {
+        top: rem(51);
+        opacity: 1;
+    }
+}
+
+@keyframes traingle3 {
+    0% {
+        top: rem(-50);
+        opacity: 0;
+    }
+    100% {
+        top: rem(51);
+        opacity: 1;
+    }
+}
+
+@keyframes traingle4 {
+    0% {
+        right: rem(59);
+        top: rem(-33);
+        opacity: 0;
+    }
+    100% {
+        right: rem(59);
+        top: rem(72);
+        opacity: 1;
+    }
+}
+
+@keyframes traingle5 {
+    0% {
+        left: rem(59);
+        top: rem(-33);
+        opacity: 0;
+    }
+    100% {
+        left: rem(59);
+        top: rem(72);
+        opacity: 1;
+    }
+}
+
+@keyframes traingle6 {
+    0% {
+        top: rem(-33);
+        opacity: 0;
+    }
+    100% {
+        top: rem(73);
+        opacity: 1;
+    }
+}
+
+@keyframes traingle7 {
+    0% {
+        top: rem(-10);
+        opacity: 0;
+    }
+    100% {
+        top: rem(94);
+        opacity: 1;
+    }
+}
+
+@keyframes opacity {
+    0% { opacity: 1 }
+    50% { opacity: 0.3 }
+    100% { opacity: 1}
+}
+////////////////////////////////// diamond loading [end]
+
+
+
+// bounce ball
+@keyframes bounce {
+    from { bottom: rem(0) }
+    to { bottom: 25% }
+}
+
+// shake
+@keyframes shake {
+    0% { rotate: 0deg }
+    
+    15% { rotate: 15deg }
+    30% { rotate: -15deg }
+    45% { rotate: 15deg }
+    60% { rotate: -15deg }
+    75% { rotate: 15deg }
+
+    100% { rotate: 0deg }
+}
+
+////////////////////////////////// ajax loading ring [start]
+  /* Animations */
+@keyframes ring1_ {
+    from {
+        stroke-dashoffset: -376.237129776;
+        transform: rotate(-0.25turn);
+        animation-timing-function: ease-in;
+    }
+    
+    23% {
+        stroke-dashoffset: -94.247778;
+        transform: rotate(1turn);
+        animation-timing-function: ease-out;
+    }
+    
+    46%, 50% {
+        stroke-dashoffset: -376.237129776;
+        transform: rotate(2.25turn);
+        animation-timing-function: ease-in;
+    }
+    
+    73% {
+        stroke-dashoffset: -94.247778;
+        transform: rotate(3.5turn);
+        animation-timing-function: ease-out;
+    }
+    
+    96%, to {
+        stroke-dashoffset: -376.237129776;
+        transform: rotate(4.75turn);
+    }
+}
+
+@keyframes ring2_ {
+    from {
+        stroke-dashoffset: -329.207488554;
+        transform: rotate(-0.25turn);
+        animation-timing-function: ease-in;
+    }
+    
+    23% {
+        stroke-dashoffset: -82.46680575;
+        transform: rotate(1turn);
+        animation-timing-function: ease-out;
+    }
+    
+    46%, 50% {
+        stroke-dashoffset: -329.207488554;
+        transform: rotate(2.25turn);
+        animation-timing-function: ease-in;
+    }
+    
+    73% {
+        stroke-dashoffset: -82.46680575;
+        transform: rotate(3.5turn);
+        animation-timing-function: ease-out;
+    }
+    
+    96%, to {
+        stroke-dashoffset: -329.207488554;
+        transform: rotate(4.75turn);
+    }
+}
+
+@keyframes ring3_ {
+    from {
+        stroke-dashoffset: -288.4484661616;
+        transform: rotate(-0.25turn);
+        animation-timing-function: ease-in;
+    }
+    
+    23% {
+        stroke-dashoffset: -72.2566298;
+        transform: rotate(1turn);
+        animation-timing-function: ease-out;
+    }
+    
+    46%, 50% {
+        stroke-dashoffset: -288.4484661616;
+        transform: rotate(2.25turn);
+        animation-timing-function: ease-in;
+    }
+    
+    73% {
+        stroke-dashoffset: -72.2566298;
+        transform: rotate(3.5turn);
+        animation-timing-function: ease-out;
+    }
+    
+    96%, to {
+        stroke-dashoffset: -288.4484661616;
+        transform: rotate(4.75turn);
+    }
+}
+
+@keyframes ring4_ {
+    from {
+        stroke-dashoffset: -253.9600625988;
+        transform: rotate(-0.25turn);
+        animation-timing-function: ease-in;
+    }
+    
+    23% {
+        stroke-dashoffset: -63.61725015;
+        transform: rotate(1turn);
+        animation-timing-function: ease-out;
+    }
+    
+    46%, 50% {
+        stroke-dashoffset: -253.9600625988;
+        transform: rotate(2.25turn);
+        animation-timing-function: ease-in;
+    }
+    
+    73% {
+        stroke-dashoffset: -63.61725015;
+        transform: rotate(3.5turn);
+        animation-timing-function: ease-out;
+    }
+    
+    96%, to {
+        stroke-dashoffset: -253.9600625988;
+        transform: rotate(4.75turn);
+    }
+}
+
+@keyframes ring5_ {
+    from {
+        stroke-dashoffset: -225.7422778656;
+        transform: rotate(-0.25turn);
+        animation-timing-function: ease-in;
+    }
+    
+    23% {
+        stroke-dashoffset: -56.5486668;
+        transform: rotate(1turn);
+        animation-timing-function: ease-out;
+    }
+    
+    46%, 50% {
+        stroke-dashoffset: -225.7422778656;
+        transform: rotate(2.25turn);
+        animation-timing-function: ease-in;
+    }
+    
+    73% {
+        stroke-dashoffset: -56.5486668;
+        transform: rotate(3.5turn);
+        animation-timing-function: ease-out;
+    }
+    
+    96%, to {
+        stroke-dashoffset: -225.7422778656;
+        transform: rotate(4.75turn);
+    }
+}
+
+@keyframes ring6_ {
+    from {
+        stroke-dashoffset: -203.795111962;
+        transform: rotate(-0.25turn);
+        animation-timing-function: ease-in;
+    }
+    
+    23% {
+        stroke-dashoffset: -51.05087975;
+        transform: rotate(1turn);
+        animation-timing-function: ease-out;
+    }
+    
+    46%, 50% {
+        stroke-dashoffset: -203.795111962;
+        transform: rotate(2.25turn);
+        animation-timing-function: ease-in;
+    }
+    
+    73% {
+        stroke-dashoffset: -51.05087975;
+        transform: rotate(3.5turn);
+        animation-timing-function: ease-out;
+    }
+    
+    96%, to {
+        stroke-dashoffset: -203.795111962;
+        transform: rotate(4.75turn);
+    }
+}
+////////////////////////////////// ajax loading ring [end]

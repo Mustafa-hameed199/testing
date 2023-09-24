@@ -1,0 +1,172 @@
+/********************** Global Style *************/
+@use "../variables" as *;
+@use "../helpers" as *;
+
+table {
+   td {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      max-width: 200px;
+   }
+
+   * {
+      text-align: center;
+      text-transform: capitalize;
+   }
+
+   th {
+      font: inherit;
+      padding: rem(8);
+   }
+}
+
+hr {
+   border-color: black;
+   &.dashed {
+      border-style: dashed;
+      margin: rem(5) 0;
+   }
+}
+
+// select,
+// textarea,
+// input {
+//     caret-color: var(--secondary-clr);
+//     transition: .5s ease;
+// }
+
+table th,
+input::placeholder,
+label {
+   text-transform: capitalize;
+}
+
+// input shadow on focus
+.form-control:focus,
+textarea:focus,
+select:focus,
+input:focus {
+   color: #212529;
+   background-color: #fff;
+   border-color: var(--main-clr);
+   box-shadow: 0 0 0 rem(1) var(--main-clr);
+   outline: 0;
+}
+
+// moving icons
+lord-icon {
+   width: rem(35);
+   height: rem(35);
+
+   &.search {
+      width: rem(50);
+      height: rem(50);
+   }
+
+   &.print {
+      width: rem(40);
+      height: rem(40);
+   }
+}
+
+.show-pwd {
+   position: relative;
+
+   input {
+      padding-left: 2rem;
+   }
+
+   &-icon {
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: grid;
+      place-items: center;
+      height: 100%;
+      width: fit-content;
+      padding: 0.5rem;
+      cursor: pointer;
+   }
+}
+
+// tooltip style
+.tooltip {
+   position: absolute;
+   z-index: 10000;
+   padding: 0.4em 1em;
+   text-align: center;
+   opacity: 0;
+   pointer-events: none;
+   background-color: black;
+   color: white;
+   text-transform: capitalize;
+   border-radius: rem(4);
+   transition: opacity 0.3s ease;
+
+   &.shadow {
+      box-shadow: 0 rem(5) rem(10) rgba(black, 0.2) !important;
+   }
+
+   @include br(mobile) {
+      display: none;
+   }
+}
+
+// for phone count number on input
+.count-phone-number {
+   position: relative;
+
+   span {
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: grid;
+      place-items: center;
+      height: 100%;
+      width: fit-content;
+      padding: 0.5rem;
+      color: red;
+   }
+}
+
+// ajax loading
+// #ajax-loading {
+//     position: fixed;
+//     top: 4rem;
+//     left: 3rem;
+//     z-index: 12345678;
+//     width: fit-content;
+//     pointer-events: none;
+
+//     .pl {
+//         width: rem(50);
+//         height: rem(50);
+
+//         @include br(sm) {
+//             width: rem(60);
+//             height: rem(60);
+//         }
+
+//         @include br(md) {
+//             width: rem(70);
+//             height: rem(70);
+//         }
+
+//         circle {
+//             transform-box: fill-box;
+//             transform-origin: center;
+//         }
+//     }
+
+//     .pl__ring1 { animation: ring1_ 4s 0s ease-in-out infinite }
+//     .pl__ring2 { animation: ring2_ 4s 0.04s ease-in-out infinite }
+//     .pl__ring3 { animation: ring3_ 4s 0.08s ease-in-out infinite }
+//     .pl__ring4 { animation: ring4_ 4s 0.12s ease-in-out infinite }
+//     .pl__ring5 { animation: ring5_ 4s 0.16s ease-in-out infinite }
+//     .pl__ring6 { animation: ring6_ 4s 0.2s ease-in-out infinite }
+// }
+
+.invalid-feedback {
+   text-transform: capitalize;
+}
