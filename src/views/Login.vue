@@ -4,22 +4,22 @@
          <main class="main my-3">
             <img :src="$store.getters['config/getImg']('diamond.png')" @click="testing" class="mx-auto" alt="Diamond Icon">
             
-            <h3 class="mb-2 text-center text-white">company name</h3>
+            <h3 class="mb-2 text-center text-white">{{ $t('lang_company_name') }}</h3>
             <h3 class=" text-white mb-2 text-center fw-bolder txt-cap"></h3>
             
             <form  @submit.prevent="login">
                <div class="mb-2">
-                  <label for="username" class="mb-1">username</label>
+                  <label for="username" class="mb-1">{{ $t('lang_username') }}</label>
                   <input type="username" name="username" autofocus class="form-control" id="username" v-model="username">
                </div>
                <div class="mb-4">
-                  <label for="password" class="mb-1">password</label>
+                  <label for="password" class="mb-1">{{ $t('lang_password') }}</label>
                   <div class="show-pwd">
                      <i class="show-pwd-icon fa-solid fa-eye" data-show-pwd-icon></i>
                      <input type="password" name="password" class="form-control" id="password" v-model="password">
                   </div>
                </div>
-               <button type="submit" name="submit" class="btn-main-clr py-2 text-white w-100">login</button>
+               <button type="submit" name="submit" class="btn-main-clr py-2 text-white w-100">{{ $t('lang_login') }}</button>
             </form>
          </main>
       </div>

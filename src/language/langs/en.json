@@ -1,4 +1,19 @@
 {
    "home": "home",
-   "click_here": "click here"
+   "click_here": "click here",
+
+   "=============": "============== global ==================",
+   "lang_page_num": "page number",
+   "lang_no_data": "no data to show",
+   "lang_show": "show",
+   "lang_previous_page": "previous page",
+   "lang_search": "search",
+   "lang_next_page": "next page",
+   "lang_add_customer": "add customer",
+   "lang_description": "description",
+   "lang_pick_all": "select all",
+   "lang_you_sure_confirm_deleting": "you want to confirm deleting ?",
+   "lang_will_delete_selected_elements_you_sure": "you will delete all selected items .. want to confirm ?"
+
+
 }

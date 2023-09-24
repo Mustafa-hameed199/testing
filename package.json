@@ -10,13 +10,11 @@
       "start-ltr": "sass ./src/assets/sass/global/_ltr.scss ./src/assets/css/style-ltr.css --watch"
    },
    "dependencies": {
-      "bootstrap": "^5.3.2",
       "sweetalert2": "^11.7.28",
       "vue": "^3.2.13",
       "vue-i18n": "^9.4.1",
       "vue-router": "^4.0.3",
-      "vuex": "^4.0.2",
-      "vue-i18n": "npm:@vue-i18n-edge"
+      "vuex": "^4.0.2"
    },
    "devDependencies": {
       "@vue/cli-plugin-router": "~5.0.0",

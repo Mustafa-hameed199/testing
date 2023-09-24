@@ -25,9 +25,10 @@
          },
 
          setDirection() {
-            let lang   = getCookie(LANG_COOKIE_NAME);
-            let link   = document.head.querySelector('[data-css]');
-            let linkBs = document.head.querySelector('[data-css-bootstrap]');
+            let lang      = getCookie(LANG_COOKIE_NAME);
+            let link      = document.head.querySelector('[data-css]');
+            let linkBsLtr = document.head.querySelector('[data-bootstrap-ltr]');
+            let linkBsRtl = document.head.querySelector('[data-bootstrap-rtl]');
 
             let dir   = lang == 'ar' ? 'rtl' : 'ltr';
 
@@ -35,7 +36,14 @@
             link.href = `${this.$store.state.config.CSS_PATH}style-${dir}.css`;
 
             // for bootstrap direction 
-            if (dir == 'rtl') linkBs.href = `${this.$store.state.config.URL}vue/node_modules/bootstrap/dist/css/bootstrap.rtl.min.css`;
+            if (dir == 'rtl') {
+               linkBsRtl.href = BS_CDN_RTL_CSS;
+               linkBsLtr.href = '';
+               
+            } else {
+               linkBsLtr.href = BS_CDN_LTR_CSS;
+               linkBsRtl.href = '';
+            } 
          }
       },
 

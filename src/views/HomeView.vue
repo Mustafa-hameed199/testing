@@ -5,16 +5,18 @@
          <input type="text" class="form-control" v-model.lazy="testing" data-float-int>
          <h1>{{ $store.getters['config/getLang'] }}</h1>
 
-            <ConfirmBtn
-               @make-confirmation="getConfirmation"
-               title="this is model welcome to application"
-               icon="info"
-               :main-btn-txt="$t('click_here')"
-               :success-msg-after-confirm="true"
-               :hide-success-icon-after-confirm="false"
-               :main-btn-no-sm="true"
-               
-            />
+         <input type="search" class="form-control" :placeholder="$t('lang_search')">
+
+         <ConfirmBtn
+            @make-confirmation="getConfirmation"
+            title="this is model welcome to application"
+            icon="info"
+            :main-btn-txt="$t('click_here')"
+            :success-msg-after-confirm="true"
+            :hide-success-icon-after-confirm="false"
+            :main-btn-no-sm="true"
+         />
+
          <div class="table-responsive my-2">
             <table class="table table-hover table-bordered table-primary">
                <thead class="bg-dark text-white">

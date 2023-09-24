@@ -6,11 +6,6 @@ import router from './router';
 import store from './store/store';
 import i18n from './language/i18n';
 
-
-// bootstrap
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap';
-
 // css
 import './assets/css/style.css';
 
