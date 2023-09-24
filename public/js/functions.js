@@ -146,6 +146,17 @@ function el(name = '') {
 }
 
 
+// ====================== When Adding A Global Or Local Event In Js File That Included In index.html Every Time When Routing Between Pages The Elements Will Lose There Events So This Function Will Prevent That ======================
+function action(eventName, selectElementByAttribute, blockOfCode) {
+   document.addEventListener(eventName, function(e) {
+      if (!e.target.hasAttribute(`${selectElementByAttribute}`)) return;
+      let el  = e.target;
+
+      blockOfCode(el);
+   })
+}
+
+
 // ====================== Validate The Inputs ======================
 function validate(names) {
    let ValidateClass = new Validation();
@@ -200,5 +211,6 @@ function customErr(condition, name, errMsg, errNextParent = false) {
    }
 
 };
+
 
 
