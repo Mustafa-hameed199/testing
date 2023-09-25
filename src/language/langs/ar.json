@@ -1,8 +1,7 @@
 {
-   "home" :"الرئيسية",
    "click_here" :"اضغط هنا",
 
-   "◾◾◾◾◾":"◾◾◾◾◾◾◾ Global ◾◾◾◾◾◾◾◾◾",
+   "●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Global ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
    "lang_page_num" :"رقم الصفحة",
    "lang_no_data" :"لا يوجد بيانات لعرضها",
    "lang_show" :"عرض",
@@ -15,7 +14,7 @@
    "lang_you_sure_confirm_deleting" :"هل تريد تأكيد الحذف ؟",
    "lang_will_delete_selected_elements_you_sure" :"ستحذف جميع عناصر المحددة .. هل تريد تأكيد ؟",
 
-   "◾◾◾◾◾":"◾◾◾◾◾◾◾ Nav ◾◾◾◾◾◾◾◾◾",
+   "●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Nav ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
    "lang_home" : "الرئيسية",
    "lang_shortcuts" : "الاختصارات",
    "lang_sales" : "مبيعات",
@@ -31,12 +30,12 @@
    "lang_add_item" : "اضافة منتج",
 
 
-   "◾◾◾◾◾":"◾◾◾◾◾◾◾ Table ◾◾◾◾◾◾◾◾◾",
+   "●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Table ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
    "lang_add" : "اضافة",
    "lang_delete" : "حذف",
    "lang_edit" : "تعديل",
 
-   "◾◾◾◾◾":"◾◾◾◾◾◾◾ Err Messages ◾◾◾◾◾◾◾◾◾",
+   "●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Err Messages ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
    "lang_invalid_field" : "هذا الحقل غير صالح",
    "lang_empty_field_err" : "رجاءا املئ هذا الحقل",
    "lang_less_chars_err" : "هذا الحقل يجب ان يكون اقل من ",
@@ -59,7 +58,7 @@
    "lang_some_err_happen" : "حدث خطأ ما ",
 
 
-   "◾◾◾◾◾":"◾◾◾◾◾◾◾ Add Item Page ◾◾◾◾◾◾◾◾◾",
+   "●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Add Item Page ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
    "lang_item" : "المنتج",
    "lang_img" : "صورة",
    "lang_item_img" : "صورة المنتج",
@@ -68,7 +67,7 @@
 
 
 
-   "◾◾◾◾◾":"◾◾◾◾◾◾◾ Add User ◾◾◾◾◾◾◾◾◾",
+   "●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Add User ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
    "lang_user" : "مستخدم",
    "lang_phone" : "الهاتف",
    "lang_phone_number" : "رقم الهاتف",
@@ -76,12 +75,12 @@
    "lang_admin" : "admin",
 
 
-   "◾◾◾◾◾":"◾◾◾◾◾◾◾ item ◾◾◾◾◾◾◾◾◾",
+   "●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● item ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
    "lang_control" : "تحكم",
    "lang_update" : "تحديث",
 
 
-   "◾◾◾◾◾":"◾◾◾◾◾◾◾ Notification ◾◾◾◾◾◾◾◾◾",
+   "●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Notification ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
    "lang_added" : "تمت الاضافة",
    "lang_deleted" : "تم الحذف",
    "lang_updated" : "تم التحديث",
@@ -89,12 +88,12 @@
    "lang_you_want_to_confirm_action" : "هل تريد تأكيد هذا الفعل ؟",
 
 
-   "◾◾◾◾◾":"◾◾◾◾◾◾◾ messages ◾◾◾◾◾◾◾◾◾",
+   "●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● messages ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
    "lang_content" : "محتوى",
    "lang_date" : "التاريخ",
 
 
-   "◾◾◾◾◾":"◾◾◾◾◾◾◾ delivery ◾◾◾◾◾◾◾◾◾",
+   "●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● delivery ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
    "lang_from" : "من",
    "lang_to" : "الى",
    "lagn_and" : "و",
@@ -104,7 +103,7 @@
    "lang_am" : "صباحا",
 
 
-   "◾◾◾◾◾":"◾◾◾◾◾◾◾ language ◾◾◾◾◾◾◾◾◾",
+   "●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● language ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
    "lang_arabic" : "عربي",
    "lang_english" : "انكليزي",
    "lang_kurdish" : "كردي",
@@ -112,13 +111,13 @@
    "lang_changed" : "تم تغير ",
 
 
-   "◾◾◾◾◾":"◾◾◾◾◾◾◾ Orders ◾◾◾◾◾◾◾◾◾",
+   "●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Orders ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
    "lang_notes" : "ملاحظات",
    "lang_order" : "طلبية",
    "lang_cancel" : "الغاء",
 
 
-   "◾◾◾◾◾":"◾◾◾◾◾◾◾ Home page ◾◾◾◾◾◾◾◾◾",
+   "●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Home page ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
    "lang_diamond_pos" : "نظام الماسي",
    "lang_new_invoice" : "فاتورة جديدة",
    "lang_add_new_item" : " اضافة منتج جديد",
@@ -127,10 +126,10 @@
    "lang_create_barcode" : "انشاء باركود",
    "lang_create" : "انشاء",
 
-   "◾◾◾◾◾":"◾◾◾◾◾◾◾ company ◾◾◾◾◾◾◾◾◾",
+   "●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● company ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
    "lang_company_name" : "بي كيو كود للحلول البرميجة",
 
-   "◾◾◾◾◾":"◾◾◾◾◾◾◾ new invoice ◾◾◾◾◾◾◾◾◾",
+   "●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● new invoice ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
    "lang_fast_invoice" : "فاتورة سريعة",
    "lang_invoice_for_client" : "فاتورة لعميل محدد",
    "lang_invoice_delivery" : "فاتورة توصيل",
@@ -209,7 +208,7 @@
    "lang_close_settings" : "اغلاق الاعدادت",
    "lang_open_settings" : "فتح الاعدادت",
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ shortcust ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● shortcust ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_categories" : "الاصناف",
 "lang_show_items" : "عرض المنتجات",
 "lang_program_settings" : "اعدادات البرنامج",
@@ -226,20 +225,20 @@
 "lang_invoice_reports" : "تقارير الفواتير",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Categories ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Categories ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_category_name" : "اسم الصنف",
 "lang_category" : " الصنف",
 "lang_empty_fields" : "تفريغ الحقول",
 "lang_cant_delete_cate" : "لا يمكن حذف الاصناف التي فيها منتجات .. رجاءا احذف المنتجات اولا",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Stores ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Stores ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_store_name" : "اسم مخزن",
 "lang_cant_delete_store" : "لا يمكن حذف المخازن التي فيها منتجات .. رجاءا امسح المنتجات اولا",
 
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Add Product ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Add Product ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_store" : "المخزن",
 "lang_product_code" : "كود المنتج",
 "lang_barcode" : "الباركود",
@@ -263,7 +262,7 @@
 "lang_barcode_try_again" : "صادف ان هذا الباركود الذي انشئه الجهاز موجودة بالفعل عندك رجاءا ارجع لصفحة انشاء الباركود واعد المحاولة ليتم انشاء ارقام جديدة لا يتشابه مع الذي موجودة عندك",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Show Items ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Show Items ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_print_by_category" : "طباعة حسب الصنف",
 "lang_name" : "الاسم",
 "lang_search_for_item" : "بحث عن المنتج",
@@ -305,7 +304,7 @@
 
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Add User ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Add User ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_username" : "اسم المستخدم",
 "lang_user_login_name" : "اسم المستخدم في التسجيل",
 "lang_password" : "كلمة المرور",
@@ -317,23 +316,23 @@
 "lang_full_name" : "الاسم الكامل",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Users Permissions ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Users Permissions ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_system_interface" : "واجهات النظام",
 "lang_type_of_expenses" : "انواع المصاريف",
 "lang_check_all" : "تحديد الكل",
 "lang_you_will_out_of_this_page_are_you_sure" : "ستخرج من هذه الصفحة .. هل تريد فعل ذلك ؟ ",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Drivers ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Drivers ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_driver_name" : "اسم السائق",
 "lang_driver_phone_number" : "رقم هاتف السائق",
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Delegates ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Delegates ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_delegate_name" : "اسم المندوب",
 "lang_delegate_phone_number" : "رقم هاتف المندوب",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Settings ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Settings ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_chose_sales_invoice_ui" : "اختيار واجهة انشاء فاتورة المبيعات",
 "lang_ui_with_barecode" : "الواجهة باستخدام الباركود",
 "lang_buy_price_items" : "سعر شراء المنتجات",
@@ -371,7 +370,7 @@
 
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Customers Data ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Customers Data ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_customer_name" : "اسم العميل",
 "lang_address" : "العنوان",
 "lang_added_date" : "تاريخ الاضافة",
@@ -379,14 +378,14 @@
 "lang_many_client_deleting_warning" : "ستحذف جميع العملاء المحددة مع بياناتهم وفواتيرهم .. هل تريد التأكيد ؟",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Suppliers ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Suppliers ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_suppliers_data" : "بيانات الموردين",
 "lang_suppliers_accounts_soon" : "حسابات الموردين آلاجل",
 "lang_suppliers_reports" : "تقارير الموردين",
 "lang_supplier" : "المورد",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Suppliers Data ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Suppliers Data ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_supplier_name" : "اسم المورد",
 "lang_supplier_company" : "شركة الموردة",
 "lang_supplier_deleting_warning" : "ستمسح جميع فواتير وبيانات هذا المورد .. هل تريد التأكيد ؟",
@@ -394,7 +393,7 @@
 
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Bank (stock) ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Bank (stock) ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_add_new_bank" : "اضافة خزنة جديدة",
 "lang_deposit_money_to_bank" : "ايداع رصيد للخزنة",
 "lang_transfer_money_between_banks" : "تحويل رصيد بين الخزنات",
@@ -404,19 +403,19 @@
 "lang_profits" : "الارباح",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ New Bank ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● New Bank ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_bank_name" : "اسم الخزنة",
 "lang_can_not_delete_bank_which_has_invoices_connected" : "لا يمكن حذف الخزنة التي مرتبطة بفواتير سابقة .. رجاءا امسح فواتير اولا",
 
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Deposite Money To Bank ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Deposite Money To Bank ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_money_want_to_deposit" : "المبلغ مراد ايداعه",
 "lang_person_name_responsible" : "اسم الشخص المسؤول",
 "lang_deposit_reason" : "سبب الايداع",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Transfer Money Between Banks ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Transfer Money Between Banks ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_transfer_from_bank" : "تحويل من خزنة",
 "lang_transfer_to_bank" : " الى خزنة",
 "lang_amount_to_transfer" : "مبلغ مراد تحويله",
@@ -427,17 +426,17 @@
 
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Take Money From Bank ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Take Money From Bank ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_take_money_reason" : "سبب السحب",
 "lang_amount_to_take" : "مبلغ مراد سحبه",
 "lang_take_money_responsible_person" : "اسم الشخص المسؤول عن سحب",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Bank Money ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Bank Money ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_bank_balance" : "رصيد الحالي للخزنة",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Bank Reports ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Bank Reports ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_bank_reports" : "تقارير الخزنة",
 "lang_date_from" : "من تاريخ",
 "lang_date_to" : "الى تاريخ",
@@ -449,39 +448,39 @@
 "lang_plz_pick_date" : "رجاءا اختر تاريخ",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Expenses ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Expenses ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_expenses_types" : "انواع مصاريف",
 "lang_expense_type" : "نوع مصروف",
 "lang_add_expenses" : "اضافة مصاريف",
 "lang_expenses_reports" : "تقارير مصاريف",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ New Expenses ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● New Expenses ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_number_of_expense_type" : "رقم نوع مصروف",
 "lang_currency_type" : "نوع العملة",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Purchases ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Purchases ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_purchases_invoice" : "فاتورة مشتريات",
 "lang_purchases_reports" : "تقارير مشتريات",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Purchases Invoice ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Purchases Invoice ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_plz_chose_supplier" : "رجاءا اختر مورد",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Purchases Reports ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Purchases Reports ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_print_detailed_reports" : "طباعة تقرير مفصل",
 "lang_invoice" : "الفاتورة",
 "lang_invoice_number" : "رقم الفاتورة",
 "lang_total_amount" : "مجموع الكلي",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Sales ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Sales ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_sales_reports" : "تقارير مبيعات",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Suppliers Payments ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Suppliers Payments ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_remain_payments_for_suppliers" : "مبالغ المتبقية للموردين",
 "lang_all_suppliers" : "كل الموردين",
 "lang_specific_supplier" : "مورد محدد",
@@ -497,13 +496,13 @@
 "lang_cancel_choosing_supplier" : "الغاء اختيار المورد",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Suppliers Reports ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Suppliers Reports ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_payments_amounts_for_suppliers" : "مبالغ المسددة للموردين",
 "lang_payed_date" : "تاريخ تسديد المبلغ",
 "lang_total_payed_price" : "اجمالي المبالغ المسددة",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Customers Payments ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Customers Payments ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_customers_payments_remain" : "مبالغ المتبقية على العملاء",
 "lang_customer_num" : "تسلسل العميل",
 "lang_all_customers" : "كل العملاء",
@@ -513,17 +512,17 @@
 "lang_remain_debts " : "الديون الباقي",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Customers Reports◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Customers Reports●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_payments_amounts_from_customers" : "مبالغ المسددة من العملاء",
 "lang_all_invoice" : "كل الفواتير",
 "lang_number_invoice" : "فاتورة رقم ",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Customers Dept Reports◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Customers Dept Reports●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_dept_amount" : "مبلغ الدين",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Delegates Reports◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Delegates Reports●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_total_sale_in_piece" : "عدد الكلي المباع بالقطع",
 "lang_total_sale_in_carton" : "عدد الكلي المباع بالكارتون",
 "lang_invoice_date" : "تاريخ الفاتورة",
@@ -536,12 +535,12 @@
 "lang_invoices_details" : "تفاصيل الفواتير",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Customers Debt ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Customers Debt ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_add_new_debt" : "اضافة ديون جديدة",
 "lang_debt_amount" : "مبلغ الدين",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Customers Accounts Details ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Customers Accounts Details ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_discount_price" : "مبلغ الخصم",
 "lang_sales_debt" : "ديون المبيعات",
 "lang_outer_debt" : "ديون الخارجية",
@@ -549,7 +548,7 @@
 "lang_cost_sales_price" : "تكلفة شراء للمبيعات",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Sales Reports ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Sales Reports ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_print_invoice" : "طباعة الفاتورة",
 "lang_print" : "طباعة",
 "lang_total_sale" : "مجموع البيع",
@@ -564,7 +563,7 @@
 "lang_you_sure_deleting_invoice" : " ستحذف هذه الفاتورة بالكامل مع كل طلبيات .. هل تريد تأكيد ذلك ؟",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Product Info ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Product Info ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_product_page" : "صفحة المنتج",
 "lang_show_in_products_page" : "رؤية في صفحة المنتجات",
 "lang_no_data_for_search_result" : "لا توجد بيانات بالمعلومة التي بحثتة عنها",
@@ -573,7 +572,7 @@
 "lang_can_not_delete_product_while_invoice_not_full_pay" : "لا يمكن حذف المنتج الذي يحتوي على فاتورة لم يتم دفع مبلغها بالكامل .. رجاءا ادفع مبلغ الفاتورة بالكامل ",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Recevie Money From Drivers ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Recevie Money From Drivers ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_invoices" : "الفواتير",
 "lang_show_invoice" : "عرض الفاتورة",
 "lang_in_dollar" : "بالدولار",
@@ -590,7 +589,7 @@
 "lang_pick_invoice_first" : "اختر الفاتورة اولا",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ shop ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● shop ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_add_shop_data" : "اضافة معلومات المحل",
 "lang_shop_name" : "اسم محل ",
 "lang_shop_phone" : "رقم الهاتف للاستفسار",
@@ -603,11 +602,11 @@
 "lang_telegram_link" : "رابط التليكرام",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Print Customers Payed Reports ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Print Customers Payed Reports ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_customers_payed_reports" : "تقرير مدفوعات العملاء",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Print Sales Invoice◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Print Sales Invoice●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_total_in_print" : "الاجمالي",
 "lang_qty_in_print" : "الكمية",
 "lang_carton_number" : "عدد الكارتون",
@@ -622,15 +621,15 @@
 "lang_dollar_currency" : "$",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Print 8cm Sales Invoice ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Print 8cm Sales Invoice ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_voucher_number" : "رقم الوصل",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Product Page  ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Product Page  ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_jumla_price" : "سعر الجملة",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ backup ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● backup ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_backup_for" : "نسخة احتياطية لل",
 "lang_customers_debt" : "ديون العملاء",
 "lang_customers_payed" : "مدفوعات العملاء",
@@ -642,11 +641,11 @@
 "lang_all_data" : "جميع البيانات",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ Reports ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Reports ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_detailed_customer_reports" : "تقرير مفصل للعملاء",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ customers detailed reports ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● customers detailed reports ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_dinar_and_dollar" : "دينار ودولار",
 "lang_chose_client" : "اختر العميل",
 "lang_soon_debts" : "ديون الآجلة",
@@ -656,25 +655,25 @@
 "lang_total_debts" : "مجموع الكلي للديون",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ print customers detailed reports ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● print customers detailed reports ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_date_today" : "تاريخ اليوم",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ receive money from delegates ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● receive money from delegates ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_no_invoice_for_this_delegate" : "لا توجد فاتورة لهذا المندوب",
 "lang_receive_invoice_price_from_delegate" : "استلام مبلغ الفاتورة من المندوب",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ payment of debt customer ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● payment of debt customer ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_invoice_debts" : "ديون الفواتير",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ invoice reports ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● invoice reports ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_click_to_see_orders" : "اضغط لرؤية الطلبيات",
 "lang_can_not_edit_invoice_already_payed_few_of_customer_money" : "لا يمكن تعديل فواتير التي تم دفع جزء من الدين الفاتورة",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ store reports ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● store reports ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_store_reports" : "تقارير المخزن",
 "lang_single_and_jumla" : "جملة ومفرد",
 "lang_piece_and_carton" : "قطعة وكارتون",
@@ -688,7 +687,7 @@
 "lang_total_sale_price_items_in_store" : "مجموع سعر البيع للمنتجات في المخزن",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ installments payments ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● installments payments ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_installment_payment" : "دفع الاقساط",
 "lang_early_payment_amount" : "مبلغ المقدمة",
 "lang_paid" : "المدفوع",
@@ -703,7 +702,7 @@
 "lang_can_not_edit_installment_invoices_that_paid_first_pay" : "لا يمكن تعديل فواتير التقسيط التي تم دفع دفعة الاولى من التقسيط",
 
 
-"◾◾◾◾◾":"◾◾◾◾◾◾◾ notification ◾◾◾◾◾◾◾◾◾",
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● notification ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
 "lang_notifications" : "الاشعارات",
 "lang_you_have_new_notifications" : "لديك اشعارات جديدة",
 "lang_the_client" : "العميل",

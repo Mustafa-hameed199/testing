@@ -1,4 +1,4 @@
-class ValidateSpecialChar {
+export default class ValidateSpecialChar {
    errMsg;
    hasSpecialChar;
    pattern  = /^[a-zA-Z0-9_]+$/;

@@ -34,16 +34,20 @@
             username: '',
             password: '',
             inputValidation: [
-               {name: 'username', empty: true},
-               {name: 'password', empty: true, showErrNextParent: true},
+               {name: 'username', notEmpty: true},
+               // {name: 'password', notEmpty: true, showErrNextParent: true},
             ],
          }
       },
 
       methods: {
          async login() {
+            const validation = new this.$ValidationTrigger();
+            if (!validation.validate(this.inputValidation)) return;
+            log('valid');
 
-            if (!validate(this.inputValidation)) return;
+            if (validation.customErr(this.username == 'admin', 'username', this.$t('lang_name_already_exists'))) return;
+
 
             // let body = {
             //    username: this.username,

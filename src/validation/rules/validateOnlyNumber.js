@@ -1,4 +1,4 @@
-class ValidateOnlyNumbers {
+export default class ValidateOnlyNumbers {
    errMsg;
    pattern = /^[0-9]+$/;
    isFloat = false;

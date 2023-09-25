@@ -1,8 +1,7 @@
 {
-   "home": "home",
    "click_here": "click here",
 
-   "=============": "============== global ==================",
+   "●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Global ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
    "lang_page_num": "page number",
    "lang_no_data": "no data to show",
    "lang_show": "show",
@@ -13,7 +12,709 @@
    "lang_description": "description",
    "lang_pick_all": "select all",
    "lang_you_sure_confirm_deleting": "you want to confirm deleting ?",
-   "lang_will_delete_selected_elements_you_sure": "you will delete all selected items .. want to confirm ?"
+   "lang_will_delete_selected_elements_you_sure": "you will delete all selected items .. want to confirm ?",
 
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● nav ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_home" : "home",
+"lang_shortcuts" : "shortcuts",
+"lang_sales" : "sales",
+"lang_stock" : "safe",
+"lang_expenses" : "expenses",
+"lang_customers" : "customers",
+"lang_suppliers" : "suppliers",
+"lang_buyers" : "purchases",
+"lang_shop_data" : "shop information",
+
+"lang_login" : "login",
+"lang_logout" : "logout",
+"lang_items" : "products",
+"lang_add_item" : "add product",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● table ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_add" : "add",
+"lang_delete" : "delete",
+"lang_edit" : "edit",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Err Msgs ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_invalid_field" : "invalid filed",
+"lang_empty_field_err" : "please fill this field",
+"lang_less_chars_err" : "this field should be less than",
+"lang_more_chars_err" : "this field should be larger than",
+"lang_has_to_be" : "this field should include ",
+"lang_not_has_special_chars_err" : "this field require at least one special characters",
+"lang_has_special_chars_err" : "this field should not contain special characters",
+"lang_wrong_user_or_pwd" : "incorrect username or password",
+"lang_wrong_username" : "incorrect username",
+"lang_wrong_password" : "incorrect password",
+"lang_only_numbers" : "this field should be only numbers",
+"lang_at_least_one_number" : "this field require at least one number",
+"lang_characters" : "characters",
+"lang_file_ex_not_allowed" : "invalid file",
+"lang_file_some_err" : "something went wrong while uploading",
+"lang_name_already_exists" : "name already exists",
+"lang_not_chose_img_err" : "please chose picture",
+"lang_pwd_not_match" : "password not matching",
+"lang_phone_number_exists" : "this number already exists .. please chose another one",
+"lang_some_err_happen" : "something went wrong",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Add Item Page ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_item" : "product",
+"lang_img" : "picture",
+"lang_item_img" : "product picture",
+"lang_discount" : "discount",
+"lang_optional" : "optional",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Add User ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_user" : "user",
+"lang_phone" : "phone",
+"lang_phone_number" : "phone number",
+"lang_user_phone" : "user number",
+"lang_admin" : "admin",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● item  ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_control" : "control",
+"lang_update" : "update",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Notification  ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_added" : "Added",
+"lang_deleted" : "Deleted",
+"lang_updated" : "Updated",
+"lang_you_sure_deleting" : "do you want to confirm deleting ?",
+"lang_you_want_to_confirm_action" : "do you want to confirm this action ?",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● messages ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_content" : "content",
+"lang_date" : "date",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● delivery ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_from" : "from",
+"lang_to" : "to",
+"lagn_and" : "and",
+"lang_or" : "or",
+"lang_time" : "time",
+"lang_pm" : "pm",
+"lang_am" : "am",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● language ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_arabic" : "arabic",
+"lang_english" : "english",
+"lang_kurdish" : "kurdish",
+"lang_change_language" : "change language",
+"lang_changed" : "changed",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Orders ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_notes" : "notes",
+"lang_order" : "order",
+"lang_cancel" : "cancel",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Home page ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_diamond_pos" : "almasy system",
+"lang_new_invoice" : "new invoice",
+"lang_add_new_item" : " add new product",
+"lang_data_backup" : "backup",
+"lang_print_barcode" : "barcode print",
+"lang_create_barcode" : "create barcode",
+"lang_create" : "create",
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● company ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_company_name" : "PQ CODE For Software Solutions",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● new invoice ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_fast_invoice" : "fast invoice",
+"lang_invoice_for_client" : "customer invoice",
+"lang_invoice_delivery" : "delivery invoice",
+"lang_dollar" : "dollar",
+"lang_dinar" : "dinar",
+"lang_single" : "single",
+"lang_package" : "package",
+"lang_carton" : "carton",
+"lang_one_piece" : "one piece",
+"lang_note" : "note",
+"lang_cash_pay" : "cash pay",
+"lang_pay_later_or_few_of_price" : "later paying or pay few of price",
+"lang_driver" : "driver",
+"lang_delegate" : "delegate",
+"lang_deserved_date" : "deserved date",
+"lang_amount" : "amount",
+"lang_item_name" : "product name",
+"lang_item_number" : "number product",
+"lang_quantity" : "number",
+"lang_price" : "price",
+"lang_total" : "total",
+"lang_type" : "type",
+"lang_much_type" : "quantity type",
+"lang_edit_quantity" : "Edit number",
+"lang_client" : "customer",
+"lang_discount_amount" : "discount percent",
+"lang_total_before_discount" : "total before discount",
+"lang_total_after_discount" : "total after discount",
+"lang_total_in_dinar" : "total in dinar",
+"lang_remain_in_dinar" : "remain in dinar",
+"lang_total_in_dollar" : "total in dollar",
+"lang_remain_in_dollar" : "remain in dollar",
+"lang_to_pay_and_save_and_print_invoice" : "pay and save and print invoice",
+"lang_to_save_and_print_invoice" : " save and print invoice",
+"lang_with_print" : "with print",
+"lang_edit_quantity_of_pieces" : "edit number of pieces",
+"lang_quantity_of_pieces" : "number of pieces",
+"lang_sale_price" : "sale price",
+"lang_pieces_price" : "one piece price",
+"lang_save" : "save",
+"lang_cancel_choosing_client" : "cancel choosing customer",
+"lang_chose" : "chose",
+"lang_plz_correct_item_number" : "please fix number of products",
+"lang_plz_add_item_number_or_make_it_empty" : "please add number for this product or leave it empty",
+"lang_no_qty_single" : "don not have pieces from this product",
+"lang_no_qty_carton" : "don not have cartons from this product",
+"lang_no_item_found" : "no product with this name or barcode",
+"lang_chose_currency" : "please chose customer",
+"lang_chose_item_size" : "please choses quantity type one piece or carton",
+"lang_chose_qty_type" : "please choses quantity type single or package",
+"lang_reach_limit_items" : "reached maximum number of this product",
+"lang_change_currency_done" : "currency changed",
+"lang_to_change_currency_you_have_to_delete_invoices" : "for changing currency we need to delete currently orders .. do you want to confirm changing currency ?",
+"lang_you_sure_want_delete_order" : "this order will be deleted from invoice .. do you want to confirm that ? ",
+"lang_plz_add_invoice" : "please add order",
+"lang_plz_chose_client" : "please chose customer",
+"lang_plz_chose_date" : "please chose date",
+"lang_plz_chose_driver" : "please chose driver",
+"lang_plz_chose_delegate" : "please chose delegate",
+"lang_plz_make_right_discount" : "please fix discount",
+"lang_discount_with_price" : "price discount",
+"lang_discount_with_percent" : "percentage discount",
+"lang_plz_pick_driver_or_delegate" : "please chose driver or delegate",
+"lang_installment_invoice" : "installment invoice", 
+"lang_normal_invoice" : "normal invoice", 
+"lang_early_payment" : "prepaid",
+"lang_amount_agreed_on_in_month_payment" : "amount agreed to pay in month",
+"lang_plz_set_price_should_pay_client_monthly" : "please insert amount client pay monthly",
+"lang_plz_set_price_not_equal_or_larger_than_remain" : "pleas insert amount not equal or larger than remain amount",
+"lang_pay_later" : "pay later",
+"lang_date_start_pay" : "date start to pay",
+"lang_payments_date" : "payments date",
+"lang_amount_monthly_payment" : "amount monthly payment",
+"lang_total_qty_in_store" : "total quantity in store",
+"lang_plz_do_not_ger_over_this_num" : "please don not write more than what already exists",
+"lang_close_settings" : "close settings",
+"lang_open_settings" : "open settings",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Shortcuts ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_categories" : "categories",
+"lang_show_items" : "show products",
+"lang_program_settings" : "settings",
+"lang_users" : "users",
+"lang_users_permissions" : "users permissions",
+"lang_stores" : "stores",
+"lang_add_store_info" : "add store information",
+"lang_drivers" : "drivers",
+"lang_deliver_orders_to_drivers" : "deliver orders to drivers",
+"lang_get_invoice_money_from_drivers" : "take invoices money from divers",
+"lang_delegates" : "delegates",
+"lang_delegates_reports" : "delegates reports",
+"lang_get_invoice_money_from_delegates" : " take invoices money from delegates",
+"lang_invoice_reports" : " invoice reports",
+
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Categories ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_category_name" : "category name",
+"lang_category" : " category",
+"lang_empty_fields" : "empty fields",
+"lang_cant_delete_cate" : "cant not delete categories that connected with product .. please delete products first",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Stores ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_store_name" : "store name",
+"lang_cant_delete_store" : "can not delete stores that connected with products .. pleas delete products first",
+
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Add Product ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_store" : "store",
+"lang_product_code" : "product code",
+"lang_barcode" : "barcode",
+"lang_number_pieces_added_to_store" : "number of pieces added to store",
+"lang_number_cartons_added_to_store" : "number of cartons added to store",
+"lang_number_items_in_carton" : "number products in carton",
+"lang_number_items_outside_carton" : "number products outside of carton",
+"lang_leastest_number_before_end" : "least amount before finish",
+"lang_prices_in_dollar" : "price in dollar",
+"lang_prices_in_dinar" : "price in dinar",
+"lang_buying_price" : "buy price",
+"lang_buying_price_carton" : "carton buy price",
+"lang_sale_price_carton_single" : "single carton sales price",
+"lang_sale_price_carton_package" : "package carton sales price",
+"lang_saleing_price_by_single" : "single sales price",
+"lang_saleing_price_by_package" : "package sales price",
+"lang_chose_barcode_info" : "chose the information to print the right price on barcode paper",
+"lang_barcode_error" : "this barcode already exists please user another one",
+"lang_code_error" : "this code already exists please user another one",
+"lang_name_error" : "this name already exists please user another one",
+"lang_barcode_try_again" : "it looks like the computer create barcode that is already exists in your database .. please go back and try again to create barcode again for creating barcode that are not exists in you database",
+
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Show Items ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_print_by_category" : "print by category",
+"lang_name" : "name",
+"lang_search_for_item" : "search for product",
+"lang_minimum_number" : "least amount",
+"lang_store_number" : "store number",
+"lang_category_number" : "category number",
+
+"lang_number_cartons_in_store" : "number of cartons in store",
+"lang_total_in_store" : "total products in store",
+"lang_sale_price_single_in_dinar" : "one piece sale price in dinar",
+"lang_buy_price_single_in_dinar" : "one piece buy price in dinar",
+"lang_sale_price_package_in_dinar" : "package sale price in dinar",
+"lang_sale_price_carton_single_in_dinar" : "single carton sale price in dinar",
+"lang_buy_price_carton_in_dinar" : "single carton buy price in dinar",
+"lang_sale_price_carton_package_in_dinar" : "package carton sale price in dinar",
+
+"lang_sale_price_single" : "one piece sale price",
+"lang_buy_price_single" : "one piece buy price ",
+"lang_sale_price_package" : "package sale price",
+"lang_buy_price_carton" : "carton buy price ",
+
+"lang_total_number_items_in_store" : "total products in the store",
+"lang_total_amount_for_store" : "total store price in dollar",
+"lang_total_amount_for_store_in_dinar" : "total store price in dinar",
+"lang_total_amount_for_store_in_package" : "total store price with wholesale price in dollar",
+"lang_total_amount_for_store_in_package_in_dinar" : "total store price with wholesale price in dinar",
+
+"lang_total_number_cartons_in_store" : "total cartons in store",
+"lang_total_amount_for_store_by_carton" : "total price for store by cartons",
+"lang_total_amount_for_store_by_carton_in_dinar" : "total price for store by cartons in dinar",
+"lang_total_amount_for_store_in_package_by_carton" : "total store price with wholesale price by cartons in dollar",
+"lang_total_amount_for_store_in_package_by_carton_dinar" : "total store price with wholesale price by cartons in dinar",
+
+"lang_total_buy_price_for_pieces" : "total buy price for pieces in dollar",
+"lang_total_buy_price_for_pieces_in_dinar" : "total buy price for pieces in dinar",
+"lang_total_buy_price_for_cartons" : "total buy price for cartons in dollar",
+"lang_total_buy_price_for_cartons_in_dinar" : "total buy price for cartons in dinar",
+
+
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Add User ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_username" : "username",
+"lang_user_login_name" : "user login name",
+"lang_password" : "password",
+"lang_user_type" : "user type",
+"lang_stock_number" : "safe number",
+"lang_balance" : "balance",
+"lang_admin_type" : "boss",
+"lang_emp" : "employer",
+"lang_full_name" : "full name",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Users Permissions ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_system_interface" : "system interface",
+"lang_type_of_expenses" : "expenses types",
+"lang_check_all" : "select all",
+"lang_you_will_out_of_this_page_are_you_sure" : "you will leave this page .. do you want to confirm ?",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Drivers ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_driver_name" : "driver name",
+"lang_driver_phone_number" : "driver phone number",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Delegates ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_delegate_name" : "delegate name",
+"lang_delegate_phone_number" : "delegate phone number",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Settings  ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_chose_sales_invoice_ui" : "chose interface invoice sales",
+"lang_ui_with_barecode" : "interface with barcode",
+"lang_buy_price_items" : "products buy price",
+"lang_price_constant" : "constant price",
+"lang_item_handle_way" : "products handle type",
+"lang_only_single" : "only pieces",
+"lang_single_and_carton" : "with pieces and cartons",
+"lang_handle_currency_in_adding_product" : "currency handle when inserting product",
+"lang_yes" : "yes",
+"lang_no" : "no",
+"lang_in_dollar_and_dinar" : "in dollar and dinar",
+"lang_sales_print_size_type" : "chose type of print sales size",
+"lang_invoice_size" : "invoice size",
+"lang_purchases_print_size_type" : "chose type of print purchases size",
+"lang_chose_sales_print_invoice" : "chose print sales invoice",
+"lang_chose_purchases_print_invoice" : "chose print purchases invoice",
+"lang_chose_print" : "chose print",
+"lang_open_new_window_in_print" : "open new window on print",
+"lang_select_photo_in_print" : "select picture in print page",
+"lang_select_design_in_print" : "chose design of print page",
+"lang_sales_invoice_type" : "sales invoice type",
+"lang_sales_currency_type" : "sales currency type",
+"lang_sales_quantity_type" : "sales quantity type",
+"lang_sales_size_type" : "sales size type",
+"lang_sales_invoice_settings_is_open" : "sales invoice settings is open",
+
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Customers  ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_customers_data" : "customer data",
+"lang_customers_debt_soon" : "customers payments later",
+"lang_add_and_pay_outer_debt" : "add and pay customers outer debts",
+"lang_customers_reports" : "customers reports",
+"lang_customers_debts_reports" : "customers debts reports",
+"lang_customers_accounts_details" : "customers details payments",
+"lang_pay_customers_debt" : "pay customers debts",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Customers Data  ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_customer_name" : "customer name",
+"lang_address" : "address",
+"lang_added_date" : "added date",
+"lang_client_deleting_warning" : "you will delete all invoices and data for this customer .. want to confirm ?",
+"lang_many_client_deleting_warning" : "you will delete all selected customers and there invoices and data .. want to confirm ?",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Suppliers ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_suppliers_data" : "supplier data",
+"lang_suppliers_accounts_soon" : "suppliers payments later",
+"lang_suppliers_reports" : "supplier reports",
+"lang_supplier" : "supplier",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Suppliers Data ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_supplier_name" : "supplier name",
+"lang_supplier_company" : "supplier company",
+"lang_supplier_deleting_warning" : "you will delete all invoices and data for this supplier .. want to confirm ?",
+"lang_many_supplier_deleting_warning" : "you will delete all selected suppliers and there invoices and data .. want to confirm ?",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Bank (stock) ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_add_new_bank" : "add new safe",
+"lang_deposit_money_to_bank" : "deposit money to safe",
+"lang_transfer_money_between_banks" : "transfer money between safes",
+"lang_take_money_from_bank" : "take money from safe",
+"lang_balance_now" : "currency balance",
+"lang_reports" : "reports",
+"lang_profits" : "profits",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● New Bank ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_bank_name" : "safe name",
+"lang_can_not_delete_bank_which_has_invoices_connected" : "can not delete safe that connected with previous invoices .. please delete invoices first",
+
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●●  Deposit Money To Bank ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_money_want_to_deposit" : "deposit amount",
+"lang_person_name_responsible" : "person responsible name",
+"lang_deposit_reason" : "deposit reason",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●●  Transfer Money Between Banks ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_transfer_from_bank" : "transfer from safe",
+"lang_transfer_to_bank" : "to safe",
+"lang_amount_to_transfer" : "transfer amount",
+"lang_transfer_responsible_person" : "person responsible name for transfer",
+"lang_transfer_reason" : "transfer reason",
+"lang_transfer_done" : "transferred",
+"lang_money_do_not_exists" : "this amount do not exists in safe",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●●  Take Money From Bank ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_take_money_reason" : "withdrawal reason",
+"lang_amount_to_take" : "withdrawal amount",
+"lang_take_money_responsible_person" : "person responsible name for withdrawal",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●●  Bank Money ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_bank_balance" : "current balance for safe",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●●  Bank Reports ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_bank_reports" : "safe reports",
+"lang_date_from" : "from date",
+"lang_date_to" : "to date",
+"lang_reason" : "reason",
+"lang_responsible_name" : "person responsible name",
+"lang_deposit_money_to_bank_report" : "deposit money to safe report",
+"lang_take_money_from_bank_report" : "withdrawal money from safe report",
+"lang_transfer_money_between_banks_report" : "transfer money between safes report",
+"lang_plz_pick_date" : "please chose date",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●●  Expenses ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_expenses_types" : "expenses types",
+"lang_expense_type" : "expense type",
+"lang_add_expenses" : "add expense",
+"lang_expenses_reports" : "expenses reports",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●●  New Expenses ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_number_of_expense_type" : "number of expense type",
+"lang_currency_type" : "currency type",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●●  Purchases ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_purchases_invoice" : "purchases invoice",
+"lang_purchases_reports" : "purchases reports",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●●  Purchases Invoice ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_plz_chose_supplier" : "please chose supplier",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●●  Purchases Reports ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_print_detailed_reports" : "print detailed report",
+"lang_invoice" : "the invoice",
+"lang_invoice_number" : "invoice number",
+"lang_total_amount" : "total amount",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●●  Sales ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_sales_reports" : "sales reports",
+
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●●  Suppliers Payments ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_remain_payments_for_suppliers" : "remain price for suppliers",
+"lang_all_suppliers" : "all suppliers",
+"lang_specific_supplier" : "specific supplier",
+"lang_order_date" : "order date",
+"lang_pay_debt" : "pay debt",
+"lang_pay_all_price" : "pay all price",
+"lang_pay_few_price" : "pay few of price",
+"lang_pay_price" : "pay price",
+"lang_total_remain_price" : "total remain price",
+"lang_supplier_num" : "supplier number",
+"lang_confirm_pay_price_for_invoice" : "do you want to confirm paying price for this invoice ?",
+"lang_plz_give_price" : "please add price",
+"lang_cancel_choosing_supplier" : "cancel choosing supplier",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●●  Suppliers Reports ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_payments_amounts_for_suppliers" : "payments amount to suppliers",
+"lang_payed_date" : "pay date",
+"lang_total_payed_price" : "total payment price",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●●  Customers Payments ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_customers_payments_remain" : "remain payments from customers",
+"lang_customer_num" : "customer number",
+"lang_all_customers" : "all customer",
+"lang_specific_customer" : "specific customer",
+"lang_print_paper" : "print payment",
+"lang_payment_date" : "payment date",
+"lang_remain_debts " : "debts remain",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●●  Customers Reports ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_payments_amounts_from_customers" : "payments from customers",
+"lang_all_invoice" : "all invoice",
+"lang_number_invoice" : "invoice number",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●●  Customers Dept Reports ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_dept_amount" : "debt amount",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●●  Delegates Reports ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_total_sale_in_piece" : "total sold in pieces",
+"lang_total_sale_in_carton" : "total sold in cartons",
+"lang_invoice_date" : "invoice date",
+"lang_number_cartons" : "number of cartons",
+"lang_number_payed_invoices" : "number payed invoices",
+"lang_number_not_payed_invoices" : "number not payed invoices",
+"lang_number_invoices" : "number invoices",
+"lang_not_payed_invoices" : "not payed invoices",
+"lang_total_invoice" : "total invoice",
+"lang_invoices_details" : "invoices detalis",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●●  Customers Debt ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_add_new_debt" : "add new debts",
+"lang_debt_amount" : "debt amount",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●●  Customers Accounts Details ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_discount_price" : "discount amount",
+"lang_sales_debt" : "sales debts",
+"lang_outer_debt" : "outer debts",
+"lang_payments" : "payments",
+"lang_cost_sales_price" : "cost amount of sales",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●●  Sales Reports ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_print_invoice" : "print invoice",
+"lang_print" : "print",
+"lang_total_sale" : "total sold",
+"lang_total_sold" : "total number sold",
+"lang_total_amount_sold" : "total amount of sales",
+"lang_total_amount_purchased" : "total amount of purchases ",
+"lang_total_discount" : "total discount amount",
+"lang_delete_invoice" : "delete invoice ",
+"lang_edit_invoice" : "edit invoice ",
+"lang_plz_write_item_name_or_invoice_number" : "please write product name or invoice number",
+"lang_plz_write_search_info" : "please search for something",
+"lang_you_sure_deleting_invoice" : "you will delete this invoice with all orders attached with him .. do you want to confirm ?",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●●  Product Info ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_product_page" : "product page",
+"lang_show_in_products_page" : "see in show products page",
+"lang_no_data_for_search_result" : "no date with information you searched for",
+"lang_delete_img" : "delete image",
+"lang_delete_item" : "delete product",
+"lang_can_not_delete_product_while_invoice_not_full_pay" : "can not delete product that have invoice not fully payed yet .. please pay the invoice",
+
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●●  Receive Money From Drivers ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_invoices" : "invoices",
+"lang_show_invoice" : "show invoice",
+"lang_in_dollar" : "in dollar",
+"lang_in_dinar" : "in dinar",
+"lang_in_currency" : "in currency",
+"lang_invoice_cost" : "invoice price",
+"lang_payed_price" : "payment amount",
+"lang_amount_remain" : "remain amount",
+"lang_return_invoice" : "return the invoice completely",
+"lang_receive_invoice_price_from_driver" : "receive invoice money from dirver",
+"lang_no_invoice_for_this_driver" : "no invoice for this driver",
+"lang_no_invoice_for_this_number" : "no invoice with this number",
+"lang_received" : "received",
+"lang_pick_invoice_first" : "first chose invoice",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● shop  ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_add_shop_data" : "add shop information",
+"lang_shop_name" : "shop name",
+"lang_shop_phone" : "phone number for inquiries",
+"lang_shop_address" : "shop address",
+"lang_secondary_address" : "secondary address",
+"lang_shop_img" : "shop logo",
+"lang_facebook_link" : "facebook link",
+"lang_instagram_link" : "instagram link",
+"lang_whatsapp_link" : "whats up link",
+"lang_telegram_link" : "telegram link",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Print Customers Payed Reports  ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_customers_payed_reports" : "customers payments report",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Print Sales Invoice  ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_total_in_print" : "total",
+"lang_qty_in_print" : "quantity",
+"lang_carton_number" : "carton number",
+"lang_one_piece_number" : "pieces number",
+"lang_old_debt" : "old debts",
+"lang_remain" : "remain",
+"lang_payed" : "payed",
+"lang_driver_and_delegate" : "driver and delegate",
+"lang_name_and_signature_received_shipment" : "receiver name and signature",
+"lang_name_and_signature_driver" : "driver name and signature",
+"lang_iraq_currency" : "IQD",
+"lang_dollar_currency" : "$",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Print 8cm Sales Invoice  ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_voucher_number" : "voucher number",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Product Page  ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_jumla_price" : "wholesale price",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● backup  ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_backup_for" : "backup for ",
+"lang_customers_debt" : "customers debts",
+"lang_customers_payed" : "customers payments",
+"lang_customers_outer_debt" : "customers outer debts",
+"lang_orders" : "orders",
+"lang_purchase_orders" : " purchases orders",
+"lang_stock_insert" : "deposit money to save",
+"lang_stock_out" : "taken money from save",
+"lang_all_data" : "all data",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Reports  ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_detailed_customer_reports" : "customers detailed reports",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● customers detailed reports  ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_dinar_and_dollar" : "dinar & dollar",
+"lang_chose_client" : "chose client",
+"lang_soon_debts" : "customer debts",
+"lang_total_payments" : "total payments",
+"lang_total_soon_debts" : "total customer debts",
+"lang_total_outer_debts" : "total customer outer debts",
+"lang_total_debts" : "total debts",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● print customers detailed reports ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_date_today" : "date today",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● receive money from delegates ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_no_invoice_for_this_delegate" : "no invoice for this delegate",
+"lang_receive_invoice_price_from_delegate" : "receive invoice amount from delegate",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● payment of debt customer ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_invoice_debts" : "invoices debts",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● invoice reports  ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_click_to_see_orders" : "click to see orders",
+"lang_can_not_edit_invoice_already_payed_few_of_customer_money" : "can not edit invoice that already payed few of customer remain money",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● store reports  ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_store_reports" : "store reports",
+"lang_single_and_jumla" : "single & collective",
+"lang_piece_and_carton" : "single & carton",
+"lang_all" : "all",
+"lang_all_stores" : "all stores",
+"lang_all_categories" : "all categories",
+"lang_total_buy_price" : "total buy price",
+"lang_total_sale_price" : "total sale price",
+"lang_buy_price" : "buy price",
+"lang_total_buy_price_items_in_store" : "total buy price items in store",
+"lang_total_sale_price_items_in_store" : "total sale price items is store",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● installments payments  ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_installment_payment" : "installment payments",
+"lang_early_payment_amount" : "prepay amount",
+"lang_paid" : "paid",
+"lang_date_should_pay" : "date must pay",
+"lang_should_pay_date" : "date must pay",
+"lang_pay_date" : "paid date",
+"lang_amount_should_pay" : "amount must pay",
+"lang_should_pay_amount" : "amount must pay",
+"lang_amount_paid" : "amount paid",
+"lang_make_payment" : "pay",
+"lang_plz_give_price_or_zero" : "pleas set price or zero",
+"lang_can_not_edit_installment_invoices_that_paid_first_pay" : "can't edit installment invoices that already paid first payment",
+
+
+"●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● notification  ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
+"lang_notifications" : "notifications",
+"lang_you_have_new_notifications" : "you have new notifications",
+"lang_the_client" : "client",
+"lang_should_pay_today_amount" : "should pay today amount",
+"lang_on_invoice_number" : "on installment invoice"
 
 }

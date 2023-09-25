@@ -1,4 +1,4 @@
-class Validation {
+export default class Validation {
    objects           = [];
    errorMsgs         = [];
 
@@ -36,7 +36,7 @@ class Validation {
 
    setProps(name) {
       this.element       = document.querySelector(`[name="${name}"]`);
-      this.nextElement   = this.errMsgNextParent ? (this.element.parentElement.nextElementSibling ? this.element.parentElement.nextElementSibling : false) : (this.element.nextElementSibling ? this.element.nextElementSibling : false);
+      this.nextElement   = this.errMsgNextParent ? (this.element.parentElement.nextElementSibling || false) : (this.element.nextElementSibling || false);
       this.elementValue  = this.element.value.trim();
       this.classObject   = this;
    }

@@ -1,4 +1,4 @@
-class ValidateEmpty {
+export default class ValidateEmpty {
    errMsg;
 
    validate(value) {

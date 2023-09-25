@@ -19,7 +19,7 @@ if (el('[data-only-int]')) {
 }
 
 
-// //▬▬▬▬▬▬▬▬ Show Password Icon
+//▬▬▬▬▬▬▬▬ show password icon
 if (el('[data-show-pwd-icon]')) {
    el('[data-show-pwd-icon]').addEventListener('click', function() {
       let input = this.parentElement.querySelector('input');

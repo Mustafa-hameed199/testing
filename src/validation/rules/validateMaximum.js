@@ -1,4 +1,4 @@
-class ValidateMaximum {
+export default class ValidateMaximum {
    max;
    errMsg;
 

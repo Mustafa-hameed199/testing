@@ -163,7 +163,7 @@ function validate(names) {
    
    names.forEach(name => {
    
-      if (name.empty === true)       ValidateClass  = ValidateClass.addRule(new ValidateEmpty());
+      if (name.notEmpty === true)       ValidateClass  = ValidateClass.addRule(new ValidateEmpty());
       if (name.onlyNumber === true)  ValidateClass  = ValidateClass.addRule(new ValidateOnlyNumbers(name.float));
       if (isNum(name.length))        ValidateClass  = ValidateClass.addRule(new ValidateMustBeLength(name.length));
       if (isNum(name.max))           ValidateClass  = ValidateClass.addRule(new ValidateMaximum(name.max));
@@ -211,6 +211,4 @@ function customErr(condition, name, errMsg, errNextParent = false) {
    }
 
 };
-
-
 

@@ -1,4 +1,4 @@
-class ValidateMinimum {
+export default class ValidateMinimum {
    min;
    errMsg;
 

@@ -51,6 +51,7 @@
 
 <script>
    import ConfirmBtn from '@/components/ConfirmBtn.vue';
+   // log(Validation);
 
    export default {
       name: 'HomeView',

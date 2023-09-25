@@ -5,6 +5,7 @@ const log = console.log;
 const BASE_URL = 'http://localhost/php-vue/';
 const API_URL  = BASE_URL + 'api/';
 const IMG_PATH = BASE_URL + 'vue/src/assets/imgs/';
+const JS_PATH  = BASE_URL + 'vue/public/js/';
 const CSS_PATH = BASE_URL + 'vue/src/assets/css/';
 const GLOBAL_JS_FILE_PATH = BASE_URL + 'vue/public/js/globalElementEvents.js';
 

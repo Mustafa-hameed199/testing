@@ -1,4 +1,4 @@
-class ValidateMustBeLength {
+export default class ValidateLength {
    length;
    errMsg;
 
