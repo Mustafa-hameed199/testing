@@ -7,7 +7,7 @@ export default {
 
    state() {
       return {
-         URL: BASE_URL || '/',
+         URL: '/',
          API_URL: API_URL,
          IMG_PATH: IMG_PATH,
          // IMG_PATH: IMG_PATH,
