@@ -9,10 +9,10 @@ const log = console.log;
 // const CSS_PATH = BASE_URL + 'src/assets/css/';
 // const GLOBAL_JS_FILE_PATH = BASE_URL + 'public/js/globalElementEvents.js';
 
-const IMG_PATH            = process.env.BASE_URL + 'src/assets/imgs/';
-const JS_PATH             = process.env.BASE_URL + 'public/js/';
-const CSS_PATH            = process.env.BASE_URL + 'src/assets/css/';
-const GLOBAL_JS_FILE_PATH = process.env.BASE_URL + 'public/js/globalElementEvents.js';
+const IMG_PATH            = 'src/assets/imgs/';
+const JS_PATH             = 'public/js/';
+const CSS_PATH            = 'src/assets/css/';
+const GLOBAL_JS_FILE_PATH = 'public/js/globalElementEvents.js';
 
 
 // language 
