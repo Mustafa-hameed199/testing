@@ -2,12 +2,18 @@ const log = console.log;
 // ===============================
 
 // paths 
-const BASE_URL = 'https://diamond-pos-vue.netlify.app/';
-const API_URL  = 'http://localhost/php-vue/api/';
-const IMG_PATH = BASE_URL + 'src/assets/imgs/';
-const JS_PATH  = BASE_URL + 'public/js/';
-const CSS_PATH = BASE_URL + 'src/assets/css/';
-const GLOBAL_JS_FILE_PATH = BASE_URL + 'public/js/globalElementEvents.js';
+// const BASE_URL = 'http://localhost/php-vue/vue/';
+// const API_URL  = 'http://localhost/php-vue/api/';
+// const IMG_PATH = BASE_URL + 'src/assets/imgs/';
+// const JS_PATH  = BASE_URL + 'public/js/';
+// const CSS_PATH = BASE_URL + 'src/assets/css/';
+// const GLOBAL_JS_FILE_PATH = BASE_URL + 'public/js/globalElementEvents.js';
+
+const IMG_PATH            = process.env.BASE_URL + 'src/assets/imgs/';
+const JS_PATH             = process.env.BASE_URL + 'public/js/';
+const CSS_PATH            = process.env.BASE_URL + 'src/assets/css/';
+const GLOBAL_JS_FILE_PATH = process.env.BASE_URL + 'public/js/globalElementEvents.js';
+
 
 // language 
 const LANG_COOKIE_NAME = 'vue_diamond_pos_lang';

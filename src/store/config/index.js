@@ -10,6 +10,8 @@ export default {
          URL: BASE_URL,
          API_URL: API_URL,
          IMG_PATH: IMG_PATH,
+         // IMG_PATH: IMG_PATH,
+         // CSS_PATH: CSS_PATH,
          CSS_PATH: CSS_PATH,
          language: getCookie(LANG_COOKIE_NAME) || DEFAULT_LANG, 
       }
