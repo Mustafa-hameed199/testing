@@ -3,7 +3,7 @@ const log = console.log;
 
 // paths 
 // const BASE_URL = 'http://localhost/php-vue/vue/';
-// const API_URL  = 'http://localhost/php-vue/api/';
+const API_URL  = 'http://localhost/php-vue/api/';
 // const IMG_PATH = BASE_URL + 'src/assets/imgs/';
 // const JS_PATH  = BASE_URL + 'public/js/';
 // const CSS_PATH = BASE_URL + 'src/assets/css/';
