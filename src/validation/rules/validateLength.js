@@ -13,7 +13,7 @@ export default class ValidateLength {
    }
    
    setErr() {
-      this.errMsg = `this field must be ${this.length} characters`;
+      this.errMsg =  ['lang_has_to_be', this.length,'lang_characters'];
       return this.errMsg;
    }
 

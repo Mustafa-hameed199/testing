@@ -1,3 +1,5 @@
+import i18n from '../../language/i18n';
+
 export default class ValidateMaximum {
    max;
    errMsg;
@@ -13,7 +15,7 @@ export default class ValidateMaximum {
    }
    
    setErr() {
-      this.errMsg = `must be smaller than ${this.max} characters`;
+      this.errMsg = ['lang_less_chars_err', this.max, 'lang_characters'];
       return this.errMsg;
    }
 

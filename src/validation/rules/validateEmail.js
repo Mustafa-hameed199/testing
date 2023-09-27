@@ -8,7 +8,7 @@ export default class ValidateEmail {
    }
 
    setErr() {
-      this.errMsg = 'please inter a valid email';
+      this.errMsg = ['lang_invalid_field'];
       return this.errMsg;
    }
 }

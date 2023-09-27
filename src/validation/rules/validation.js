@@ -1,3 +1,5 @@
+import i18n from '../../language/i18n';
+
 export default class Validation {
    objects           = [];
    errorMsgs         = [];
@@ -60,18 +62,16 @@ export default class Validation {
       }
    }
 
-   addErrNextParent() {
-      this.errMsgNextParent = true;
-   }
-
    createErrElement(obj) {
       let errEl = document.createElement('span');
       errEl.classList.add(this.errMsgClassName);
-      errEl.textContent = obj.errMsg;
+      let errorMsg = '';
+      obj.errMsg.forEach(msg => errorMsg += i18n.global.t(`${msg}`) + ' ');
+      errEl.textContent = errorMsg;
 
       return errEl;
    } 
-
+   
    addErrClasses() {
       if (this.errMsgNextParent) this.element.parentElement.classList.add(this.inputErrClassName);
       this.element.classList.add(this.inputErrClassName);
@@ -86,6 +86,10 @@ export default class Validation {
    appendErrElement(errEl) {
       if (this.errMsgNextParent) this.element.parentElement.insertAdjacentElement('afterend', errEl);
       else this.element.parentNode.insertBefore(errEl, this.element.nextElementSibling);
+   }
+
+   addErrNextParent() {
+      this.errMsgNextParent = true;
    }
 
    reset() {

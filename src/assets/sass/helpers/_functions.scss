@@ -9,3 +9,16 @@
       border-radius: 50%
    );
 }
+
+@function get-contrast-color($clr) {
+   $r: red($clr);
+   $g: green($clr);
+   $b: blue($clr);
+   $yiq: (($r * 299) + ($g * 587) + ($b * 114)) / 1000;
+
+   @if ($yiq >= 128) {
+     @return #000; // Use black text on light background
+   } @else {
+     @return #fff; // Use white text on dark background
+   }
+}

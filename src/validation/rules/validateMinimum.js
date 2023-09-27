@@ -13,7 +13,7 @@ export default class ValidateMinimum {
    }
    
    setErr() {
-      this.errMsg = `must be larger than ${this.min} characters`;
+      this.errMsg = ['lang_more_chars_err', this.min, 'lang_characters'];
       return this.errMsg;
    }
 

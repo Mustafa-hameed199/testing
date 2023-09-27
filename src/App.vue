@@ -61,14 +61,16 @@
       },
 
       created() {
+         let obj = this;
+
          this.setLangCookie();
          this.setLanguageStyle();
          this.$watch(() => this.$store.state.config.language, (newValue, oldValue) => {
-            this.setLanguageStyle();
+            obj.setLanguageStyle();
          });
 
          router.beforeEach((to, from, next) => {
-            this.setGlobalJsEvents();
+            obj.setGlobalJsEvents();
             next();
          });
       },

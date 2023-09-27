@@ -3,6 +3,8 @@
 
    "●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Global ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
    "lang_page_num": "page number",
+   "lang_confirm": "confirm",
+   "lang_change": "change",
    "lang_no_data": "no data to show",
    "lang_show": "show",
    "lang_previous_page": "previous page",
@@ -50,6 +52,7 @@
 "lang_wrong_username" : "incorrect username",
 "lang_wrong_password" : "incorrect password",
 "lang_only_numbers" : "this field should be only numbers",
+"lang_only_float_numbers": "this field should be only float numbers",
 "lang_at_least_one_number" : "this field require at least one number",
 "lang_characters" : "characters",
 "lang_file_ex_not_allowed" : "invalid file",

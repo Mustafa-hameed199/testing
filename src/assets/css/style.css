@@ -4004,8 +4004,9 @@ img {
 }
 
 .btn-main-clr {
-  padding: 0.75rem 1.5rem;
+  padding: 0.375rem 0.75rem;
   text-transform: capitalize;
+  color: #fff;
   background-color: var(--main-clr) !important;
   border-radius: 0.3125rem;
   border: 0.0625rem solid var(--main-clr);
@@ -4016,6 +4017,7 @@ img {
 }
 .btn-main-clr:hover {
   background-color: var(--main-clr-hover) !important;
+  color: #fff;
 }
 
 .divider {

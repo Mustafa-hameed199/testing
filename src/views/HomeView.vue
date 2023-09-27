@@ -11,12 +11,7 @@
 
          <ConfirmBtn
             @make-confirmation="getConfirmation"
-            title="this is model welcome to application"
-            icon="info"
-            :main-btn-txt="$t('click_here')"
-            :success-msg-after-confirm="true"
-            :hide-success-icon-after-confirm="false"
-            :main-btn-no-sm="true"
+            icon="error"
          />
 
          <div class="table-responsive my-2">
@@ -51,7 +46,6 @@
 
 <script>
    import ConfirmBtn from '@/components/ConfirmBtn.vue';
-   // log(Validation);
 
    export default {
       name: 'HomeView',

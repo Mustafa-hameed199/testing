@@ -11,13 +11,13 @@ export default class ValidateOnlyNumbers {
    }
 
    validate(value) {
-      if (!this.pattern.test(value)) return this.setErr();
+      if (!this.pattern.test(value) && value != '') return this.setErr();
       else return true;
    }
 
    setErr() {
-      if (this.isFloat) this.errMsg = 'field should be only float numbers';
-      else this.errMsg = 'field should be only numbers';
+      if (this.isFloat) this.errMsg = ['lang_only_float_numbers'];
+      else this.errMsg = ['lang_only_numbers'];
 
       return this.errMsg;
    }

@@ -7,7 +7,7 @@ const i18n = createI18n({
    fallbackLocale: DEFAULT_LANG,
    messages: {
       en,
-      ar
+      ar,
    }
 });
 

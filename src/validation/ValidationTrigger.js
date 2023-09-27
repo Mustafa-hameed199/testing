@@ -4,13 +4,14 @@ import ValidateMaximum from './rules/validateMaximum';
 import ValidateMinimum from './rules/validateMinimum';
 import ValidateOnlyNumber from './rules/validateOnlyNumber';
 import ValidateSpecialChar from './rules/validateSpecialChar';
+import ValidateLength from './rules/validateLength';
 
 import Validation from './rules/validation';
 
 
 export class ValidationTrigger {
 
-   validate(names) {
+   validating(names) {
       
       let ValidateClass = new Validation();
 
@@ -18,7 +19,7 @@ export class ValidationTrigger {
       
          if (name.notEmpty === true)    ValidateClass  = ValidateClass.addRule(new ValidateEmpty());
          if (name.onlyNumbers === true) ValidateClass  = ValidateClass.addRule(new ValidateOnlyNumber(name.float));
-         if (isNum(name.length))        ValidateClass  = ValidateClass.addRule(new ValidateMustBeLength(name.length));
+         if (isNum(name.length))        ValidateClass  = ValidateClass.addRule(new ValidateLength(name.length));
          if (isNum(name.max))           ValidateClass  = ValidateClass.addRule(new ValidateMaximum(name.max));
          if (isNum(name.min))           ValidateClass  = ValidateClass.addRule(new ValidateMinimum(name.min));
          if (name.specialChar === true) ValidateClass  = ValidateClass.addRule(new ValidateSpecialChar(name.hasSpecialChar));
@@ -33,7 +34,7 @@ export class ValidationTrigger {
    
    }
 
-   addCustomErr(name, errMsg = '', errNextParent = false) {
+   addCustomErr(name, errMsg = [], errNextParent = false) {
       let ValidateClass = new Validation();
    
       if (errNextParent) ValidateClass.addErrNextParent();
@@ -47,8 +48,8 @@ export class ValidationTrigger {
       ValidateClass.removeErr(name);
    }
 
-   customErr(condition, name, errMsg, errNextParent = false) {
-      
+   customErr(condition, name, errMsg = [], errNextParent = false) {
+
       if (condition) {
          this.addCustomErr(name, errMsg, errNextParent);
          return true;

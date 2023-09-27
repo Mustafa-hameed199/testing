@@ -95,15 +95,15 @@
 
 // tables 
 @for $i from 0 through 10 {
-    .table-p-#{$i}px {
-        table,
-        thead,
-        tbody,
-        tfoot,
-        th,
-        td,
-        tr { padding: rem($i)}
-    }
+   .table-p-#{$i}px {
+      table,
+      thead,
+      tbody,
+      tfoot,
+      th,
+      td,
+      tr { padding: rem($i)}
+   }
 }
 
 // img
@@ -178,8 +178,9 @@
    }
    
    .btn-#{$color} {
-      padding: rem(12) rem(24);
+      padding: rem(6) rem(12);
       text-transform: capitalize;
+      color: get-contrast-color($value);
       background-color: var(--#{$color}) !important;
       border-radius: rem(5);
       border: rem(1) solid var(--main-clr);
@@ -187,7 +188,10 @@
       user-select: none;
       transition: .4s ease;
       cursor: pointer;
-      &:hover { background-color: var(--#{$color}#{-hover}) !important }
+      &:hover { 
+         background-color: var(--#{$color}#{-hover}) !important;
+         color: get-contrast-color(darken($value, 20%));
+      }
    }
 }
 

@@ -3,6 +3,8 @@
 
    "●●●●●●●●●●●●●●●":"●●●●●●●●●●●●●●●●●●●●● Global ●●●●●●●●●●●●●●●●●●●●●●●●●●●",
    "lang_page_num" :"رقم الصفحة",
+   "lang_confirm": "تأكيد",
+   "lang_change": "تغير",
    "lang_no_data" :"لا يوجد بيانات لعرضها",
    "lang_show" :"عرض",
    "lang_previous_page" :"صفحة سابقة",
@@ -47,6 +49,7 @@
    "lang_wrong_username" : "اسم مستخدم غير صحيحة",
    "lang_wrong_password" : " كلمة المرور غير صحيحة",
    "lang_only_numbers" : "هذا حقل يجب ان يكون فقط ارقام",
+   "lang_only_float_numbers": "يجب أن يكون هذا الحقل عبارة عن أرقام عشرية فقط",
    "lang_at_least_one_number" : "هذا الحقل يجب ان يحتوي علئ اقل رقم واحد",
    "lang_characters" : "عناصر",
    "lang_file_ex_not_allowed" : "هذا الملف غير مقبول كصورة",

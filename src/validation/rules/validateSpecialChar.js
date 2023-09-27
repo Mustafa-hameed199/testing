@@ -15,8 +15,8 @@ export default class ValidateSpecialChar {
    }
 
    setErr() {
-      if (this.hasSpecialChar) this.errMsg = 'please inter at least one special character';
-      else this.errMsg = 'special characters not allowed';
+      if (this.hasSpecialChar) this.errMsg = ['lang_not_has_special_chars_err'];
+      else this.errMsg = ['lang_has_special_chars_err'];
       return this.errMsg;
    }
 }

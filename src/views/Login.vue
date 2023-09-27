@@ -4,8 +4,7 @@
          <main class="main my-3">
             <img :src="$store.getters['config/getImg']('diamond.png')" @click="testing" class="mx-auto" alt="Diamond Icon">
             
-            <h3 class="mb-2 text-center text-white">{{ $t('lang_company_name') }}</h3>
-            <h3 class=" text-white mb-2 text-center fw-bolder txt-cap"></h3>
+            <h3 class="mb-3 text-center text-white">{{ $t('lang_company_name') }}</h3>
             
             <form  @submit.prevent="login">
                <div class="mb-2">
@@ -35,7 +34,7 @@
             password: '',
             inputValidation: [
                {name: 'username', notEmpty: true},
-               // {name: 'password', notEmpty: true, showErrNextParent: true},
+               {name: 'password', notEmpty: true, showErrNextParent: true},
             ],
          }
       },
@@ -43,10 +42,9 @@
       methods: {
          async login() {
             const validation = new this.$ValidationTrigger();
-            if (!validation.validate(this.inputValidation)) return;
-            log('valid');
+            if (!validation.validating(this.inputValidation)) return;
 
-            if (validation.customErr(this.username == 'admin', 'username', this.$t('lang_name_already_exists'))) return;
+            if (validation.customErr(this.username == 'admin', 'username', ['lang_name_already_exists'])) return;
 
 
             // let body = {
@@ -61,7 +59,7 @@
             
             // success('you are logged !');
          },
-      }
+      },
    };
 
 </script>

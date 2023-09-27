@@ -4,7 +4,7 @@
          class="btn txt-cap flex-center gap-2"
          :class="[
             btnBg != undefined ? btnBg : '', 
-            mainBtnNoSm || false ? '' : 'btn-sm',
+            mainBtnSm ?? false ? 'btn-sm' : '',
          ]"
          @click="showConfirmation($event)">
          {{ btnTxt }}
@@ -25,12 +25,12 @@
          mainBtnIcon:                    String,
          mainBtnIconFs:                  String,
          mainBtnBgClr:                   String,
-         mainBtnNoSm:                    Boolean,
+         mainBtnSm:                      Boolean,
          title:                          String,
          text:                           String,
          icon:                           String,
-         confirmBtnClr:                  String,
-         cancelBtnClr:                   String,
+         confirmBtnBgClr:                String,
+         cancelBtnBgClr:                 String,
          confirmBtnTxt:                  String,
          cancelBtnTxt:                   String,
          confirmSuccessTxt:              String,
@@ -41,17 +41,17 @@
       methods: {
          showConfirmation(event) {
             let el     = event.target;
-            let title  = this.title == undefined ? 'Do you want to confirm ?' : this.title;
+            let title  = this.title == undefined ? (this.icon == 'error' ? this.$t('lang_you_sure_confirm_deleting') : this.$t('lang_you_want_to_confirm_action')) : this.title;
             let text   = this.text;
             let icon   = this.icon == undefined ? 'warning' : this.icon;
 
-            let confirmButtonColor = this.confirmBtnClr == undefined ? (this.icon == 'success' ? '#333' : '#3085d6') : this.confirmBtnClr;
-            let cancelButtonColor  = this.cancelBtnClr == undefined ? '#d33' : this.cancelBtnClr;
-            let confirmBtnText     = this.confirmBtnTxt == undefined ? 'Yes' : this.confirmBtnTxt;
-            let cancelBtnText      = this.cancelBtnTxt == undefined ? 'no' : this.cancelBtnTxt;
-            let confirmSuccessTxt  = this.confirmSuccessTxt == undefined ? 'it is done !' : this.confirmSuccessTxt;
-            let confirmSuccessTime = this.confirmSuccessTime == undefined ? 1250 : this.confirmSuccessTime;
-            let confirmSuccessPos  = this.confirmSuccessPos == undefined ? 'top-end' : this.confirmSuccessPos;
+            let confirmButtonColor = this.confirmBtnBgClr    || (this.icon == 'success' ? '#333' : '#3085d6');
+            let cancelButtonColor  = this.cancelBtnBgClr     || '#d33';
+            let confirmBtnText     = this.confirmBtnTxt      || this.$t('lang_yes');
+            let cancelBtnText      = this.cancelBtnTxt       || this.$t('lang_no');
+            let confirmSuccessTxt  = this.confirmSuccessTxt  || this.$t('lang_deleted');
+            let confirmSuccessTime = this.confirmSuccessTime || 1250;
+            let confirmSuccessPos  = this.confirmSuccessPos  || 'top-end';
             
             let hideSuccessIconAfterConfirm = this.hideSuccessIconAfterConfirm || false;
             let successMsgFontSizeAfterConfirm  = this.successMsgFontSizeAfterConfirm || 'fs-25';
@@ -71,7 +71,7 @@
                let isConfirmed = false;
                
                if (result.isConfirmed) {
-                  if (this.successMsgAfterConfirm) success(confirmSuccessTxt, hideSuccessIconAfterConfirm, confirmSuccessTime, successMsgFontSizeAfterConfirm, confirmSuccessPos);
+                  if (this.successMsgAfterConfirm || true) success(confirmSuccessTxt, hideSuccessIconAfterConfirm || false, confirmSuccessTime, successMsgFontSizeAfterConfirm, confirmSuccessPos);
                   isConfirmed = true;
                } else isConfirmed = false;
                
@@ -83,13 +83,13 @@
       computed: {
          btnTxt() {
             if (this.mainBtnTxt == undefined) {
-               if      (this.icon == 'error')   return 'delete';
-               else if (this.icon == 'success') return 'update';
-               else if (this.icon == 'warning') return 'change';
-               else if (this.icon == 'info')    return 'confirm';
-               else return 'show';
+               if      (this.icon == 'error')   return this.$t('lang_delete');
+               else if (this.icon == 'success') return this.$t('lang_update');
+               else if (this.icon == 'warning') return this.$t('lang_confirm');
+               else if (this.icon == 'info')    return this.$t('lang_confirm');
+               else return this.$t('lang_show');
             }
-            return this.mainBtnTxt != undefined ? this.mainBtnTxt : 'confirm'
+            return this.mainBtnTxt != undefined ? this.mainBtnTxt : this.$t('lang_confirm')
          },
          btnBg () {
             if (this.mainBtnBgClr == undefined || this.mainBtnBgClr == '') {

@@ -7,7 +7,7 @@ export default class ValidateEmpty {
    }
 
    setErr() {
-      this.errMsg = 'please fill this field';
+      this.errMsg = ['lang_empty_field_err'];
       return this.errMsg;
    }
 }
