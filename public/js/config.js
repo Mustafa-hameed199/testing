@@ -6,7 +6,6 @@ const BASE_URL = window.location.origin + '/';
 const API_URL  = 'http://localhost/php-vue/api/';
 const GLOBAL_JS_FILE_PATH = './js/globalElementEvents.js';
 
-
 // language 
 const LANG_COOKIE_NAME = 'vue_diamond_pos_lang';
 const DEFAULT_LANG     = 'ar';

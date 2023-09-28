@@ -7,7 +7,7 @@ export default {
 
    state() {
       return {
-         URL: BASE_URL,
+         URL: '/',
          API_URL: API_URL,
          language: getCookie(LANG_COOKIE_NAME) || DEFAULT_LANG, 
       }
