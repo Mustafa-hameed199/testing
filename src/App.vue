@@ -1,8 +1,10 @@
 <template>
    <Nav />
-   <transition>
-      <router-view/>
-   </transition>
+   <router-view v-slot="{ Component }">
+      <transition mode="out-in">
+         <component :is="Component" />
+      </transition>
+   </router-view>
    <common-html/>
 </template>
 
@@ -82,15 +84,19 @@
 </script>
 
 <style lang="scss">
-   .v-leave-to,
    .v-enter-from {
-      transform: translateY(20px);
+      transform: scale(.5);
+      opacity: 0;
+   }
+
+   .v-leave-to {
+      transform: scale(.5);
       opacity: 0;
    }
 
    .v-enter-active,
    .v-leave-active {
       // transition: .3s cubic-bezier(.04,.05,.15,1.59);
-      transition: .3s ease;
+      transition: .075s ease;
    }
 </style>
