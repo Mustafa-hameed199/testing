@@ -10,16 +10,9 @@ import store from './store/store';
 import i18n from './language/i18n';
 
 // css
-import './assets/css/style.css';
+// import './assets/css/style.css';
 
-// app.prototype.$constants = {
-//    BASE_URL: process.env.BASE_URL,
-//    API_URL: process.env.VUE_APP_API_URL,
-//    IMG_PATH: 'src/assets/imgs/',
-//    JS_PATH: 'public/js/',
-//    CSS_PATH: 'src/assets/css/',
-//    GLOBAL_JS_FILE_PATH: 'public/js/globalElementEvents.js',
-// };
+
 
 
 

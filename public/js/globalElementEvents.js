@@ -1,6 +1,3 @@
-log('sdsfsfdsdf');
-
-
 //▬▬▬▬▬▬▬▬ to force user write only numbers & points
 if (el('[data-float-int]')) {
 

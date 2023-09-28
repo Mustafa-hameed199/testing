@@ -19,6 +19,11 @@
          Nav
       },
 
+      data() {
+         return {
+         }
+      },
+
       methods: {
          setLangCookie() {
             if (getCookie(LANG_COOKIE_NAME) !== null) return;
@@ -33,7 +38,8 @@
 
             let dir   = lang == 'ar' ? 'rtl' : 'ltr';
             // for css direction 
-            link.href = `${CSS_PATH}style-${dir}.css`;
+            // link.href = `${this.CSS_PATH}/style-${dir}.css`;
+            link.href = `./css/style-${dir}.css`;
 
             // for bootstrap direction 
             if (dir == 'rtl') {
@@ -53,7 +59,7 @@
             // reload the script to get touch with elements events
             let scriptTag  = document.createElement('script');
             scriptTag.src  = GLOBAL_JS_FILE_PATH;
-            // scriptTag.setAttribute('defer', '');
+            scriptTag.setAttribute('defer', '');
             scriptTag.setAttribute('data-globalEvents-js', '');
             document.body.appendChild(scriptTag);
          }

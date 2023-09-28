@@ -5,9 +5,9 @@
    "scripts": {
       "serve": "vue-cli-service serve --port 3000",
       "build": "vue-cli-service build",
-      "start": "sass ./src/assets/sass/style.scss ./src/assets/css/style.css --watch",
-      "start-rtl": "sass ./src/assets/sass/global/_rtl.scss ./src/assets/css/style-rtl.css --watch",
-      "start-ltr": "sass ./src/assets/sass/global/_ltr.scss ./src/assets/css/style-ltr.css --watch"
+      "start": "sass ./src/assets/sass/style.scss ./public/css/style.css --watch",
+      "start-rtl": "sass ./src/assets/sass/global/_rtl.scss ./public/css/style-rtl.css --watch",
+      "start-ltr": "sass ./src/assets/sass/global/_ltr.scss ./public/css/style-ltr.css --watch"
    },
    "dependencies": {
       "sweetalert2": "^11.7.28",

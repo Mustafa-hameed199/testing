@@ -1,8 +1,8 @@
 <template>
-   <div id="login" class="login" :style="`background-image: url(${$store.getters['config/getImg']('login-bg.jpg')})`">
+   <div id="login" class="login">
       <div class="container">
          <main class="main my-3">
-            <img :src="$store.getters['config/getImg']('diamond.png')" @click="testing" class="mx-auto" alt="Diamond Icon">
+            <img src="@imgs/diamond.png" class="mx-auto" alt="Diamond Icon">
             
             <h3 class="mb-3 text-center text-white">{{ $t('lang_company_name') }}</h3>
             
@@ -68,6 +68,7 @@
    @use '@/assets/sass/helpers' as *;
 
    .login {
+      background-image: url('@imgs/login-bg.jpg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;

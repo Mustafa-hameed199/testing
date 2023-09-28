@@ -1,8 +1,9 @@
 <template>
    <div id="home">
       <div class="container">
-         <img alt="Vue logo" :src="$store.getters['config/getImg']('logo.png')" class="w-fit mx-auto">
-         <!-- <img alt="Vue logo" src="assets/imgs/logo.png" class="w-fit mx-auto"> -->
+         <!-- <img alt="Vue logo" :src="$store.getters['config/getImg']('logo.png')" class="w-fit mx-auto"> -->
+         <!-- <img alt="Vue logo" src="/vue/src/assets/imgs/logo.png" class="w-fit mx-auto"> -->
+         <img alt="Vue logo" src="@imgs/logo.png" class="w-fit mx-auto">
          <input type="text" class="form-control" v-model.lazy="testing" data-float-int>
          <h1>{{ $store.getters['config/getLang'] }}</h1>
 
@@ -80,10 +81,13 @@
 
          getConfirmation(isConfirmed) {
             this.confirmed = isConfirmed;
+            document.querySelector('img').setAttribute('src','@imgs/logo.png');
             // this.deleteData();
          },
       },
 
+      created() {
+      },
       mounted() {
          // this.getData();
       },
