@@ -1,4 +1,7 @@
-// //▬▬▬▬▬▬▬▬ to force user write only numbers & points
+log('sdsfsfdsdf');
+
+
+//▬▬▬▬▬▬▬▬ to force user write only numbers & points
 if (el('[data-float-int]')) {
 
    el('[data-float-int]').addEventListener('input', function () {
@@ -10,7 +13,7 @@ if (el('[data-float-int]')) {
 }
 
 
-// //▬▬▬▬▬▬▬▬ to force user write only numbers
+//▬▬▬▬▬▬▬▬ to force user write only numbers
 if (el('[data-only-int]')) {
 
    el('[data-only-int]').addEventListener('input', function() {
@@ -18,7 +21,6 @@ if (el('[data-only-int]')) {
    })
 
 }
-
 
 //▬▬▬▬▬▬▬▬ show password icon
 if (el('[data-show-pwd-icon]')) {

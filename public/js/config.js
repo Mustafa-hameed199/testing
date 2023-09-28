@@ -2,17 +2,12 @@ const log = console.log;
 // ===============================
 
 // paths 
-// const BASE_URL = 'http://localhost/php-vue/vue/';
-// const API_URL  = 'http://localhost/php-vue/api/';
-// const IMG_PATH = BASE_URL + 'src/assets/imgs/';
-// const JS_PATH  = BASE_URL + 'public/js/';
-// const CSS_PATH = BASE_URL + 'src/assets/css/';
-// const GLOBAL_JS_FILE_PATH = BASE_URL + 'public/js/globalElementEvents.js';
-
-const IMG_PATH            = 'src/assets/imgs/';
-const JS_PATH             = 'public/js/';
-const CSS_PATH            = 'src/assets/css/';
-const GLOBAL_JS_FILE_PATH = 'public/js/globalElementEvents.js';
+const BASE_URL = window.location.origin + '/';
+const API_URL  = 'http://localhost/php-vue/api/';
+const IMG_PATH = BASE_URL + 'vue/src/assets/imgs/';
+const JS_PATH  = BASE_URL + 'public/js/';
+const CSS_PATH = BASE_URL + 'src/assets/css/';
+const GLOBAL_JS_FILE_PATH = JS_PATH + 'globalElementEvents.js';
 
 
 // language 

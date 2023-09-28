@@ -11,7 +11,7 @@
    import commonHtml from './components/CommonHtml.vue';
    import Nav from './components/Navbar.vue';
    import router from './router';
-
+   
    export default {
       name: 'app',
       components: {
@@ -32,7 +32,6 @@
             let linkBsRtl = document.head.querySelector('[data-bootstrap-rtl]');
 
             let dir   = lang == 'ar' ? 'rtl' : 'ltr';
-
             // for css direction 
             link.href = `${CSS_PATH}style-${dir}.css`;
 
@@ -54,7 +53,7 @@
             // reload the script to get touch with elements events
             let scriptTag  = document.createElement('script');
             scriptTag.src  = GLOBAL_JS_FILE_PATH;
-            scriptTag.setAttribute('defer', '');
+            // scriptTag.setAttribute('defer', '');
             scriptTag.setAttribute('data-globalEvents-js', '');
             document.body.appendChild(scriptTag);
          }
