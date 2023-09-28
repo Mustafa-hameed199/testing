@@ -81,7 +81,6 @@
 
          getConfirmation(isConfirmed) {
             this.confirmed = isConfirmed;
-            document.querySelector('img').setAttribute('src','@imgs/logo.png');
             // this.deleteData();
          },
       },

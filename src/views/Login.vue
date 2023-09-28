@@ -65,7 +65,7 @@
 </script>
 
 <style scoped lang="scss">
-   @use '@/assets/sass/helpers' as *;
+   @use '@sass/helpers' as *;
 
    .login {
       background-image: url('@imgs/login-bg.jpg');

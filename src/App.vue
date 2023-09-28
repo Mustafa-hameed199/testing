@@ -38,7 +38,6 @@
 
             let dir   = lang == 'ar' ? 'rtl' : 'ltr';
             // for css direction 
-            // link.href = `${this.CSS_PATH}/style-${dir}.css`;
             link.href = `./css/style-${dir}.css`;
 
             // for bootstrap direction 
