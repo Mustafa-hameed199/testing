@@ -9,6 +9,7 @@ const JS_PATH  = BASE_URL + 'public/js/';
 const CSS_PATH = BASE_URL + 'src/assets/css/';
 const GLOBAL_JS_FILE_PATH = JS_PATH + 'globalElementEvents.js';
 
+log(window.location.origin);
 
 // language 
 const LANG_COOKIE_NAME = 'vue_diamond_pos_lang';
